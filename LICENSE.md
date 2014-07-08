@@ -1,362 +1,295 @@
-Mozilla Public License, version 2.0
 
-1. Definitions
-
-1.1. "Contributor"
-
-     means each individual or legal entity that creates, contributes to the
-     creation of, or owns Covered Software.
-
-1.2. "Contributor Version"
-
-     means the combination of the Contributions of others (if any) used by a
-     Contributor and that particular Contributor's Contribution.
-
-1.3. "Contribution"
-
-     means Covered Software of a particular Contributor.
-
-1.4. "Covered Software"
-
-     means Source Code Form to which the initial Contributor has attached the
-     notice in Exhibit A, the Executable Form of such Source Code Form, and
-     Modifications of such Source Code Form, in each case including portions
-     thereof.
-
-1.5. "Incompatible With Secondary Licenses"
-     means
-
-     a. that the initial Contributor has attached the notice described in
-        Exhibit B to the Covered Software; or
-
-     b. that the Covered Software was made available under the terms of
-        version 1.1 or earlier of the License, but not also under the terms of
-        a Secondary License.
-
-1.6. "Executable Form"
-
-     means any form of the work other than Source Code Form.
-
-1.7. "Larger Work"
-
-     means a work that combines Covered Software with other material, in a
-     separate file or files, that is not Covered Software.
-
-1.8. "License"
-
-     means this document.
-
-1.9. "Licensable"
-
-     means having the right to grant, to the maximum extent possible, whether
-     at the time of the initial grant or subsequently, any and all of the
-     rights conveyed by this License.
-
-1.10. "Modifications"
-
-     means any of the following:
-
-     a. any file in Source Code Form that results from an addition to,
-        deletion from, or modification of the contents of Covered Software; or
-
-     b. any new file in Source Code Form that contains any Covered Software.
-
-1.11. "Patent Claims" of a Contributor
-
-      means any patent claim(s), including without limitation, method,
-      process, and apparatus claims, in any patent Licensable by such
-      Contributor that would be infringed, but for the grant of the License,
-      by the making, using, selling, offering for sale, having made, import,
-      or transfer of either its Contributions or its Contributor Version.
-
-1.12. "Secondary License"
-
-      means either the GNU General Public License, Version 2.0, the GNU Lesser
-      General Public License, Version 2.1, the GNU Affero General Public
-      License, Version 3.0, or any later versions of those licenses.
-
-1.13. "Source Code Form"
-
-      means the form of the work preferred for making modifications.
-
-1.14. "You" (or "Your")
-
-      means an individual or a legal entity exercising rights under this
-      License. For legal entities, "You" includes any entity that controls, is
-      controlled by, or is under common control with You. For purposes of this
-      definition, "control" means (a) the power, direct or indirect, to cause
-      the direction or management of such entity, whether by contract or
-      otherwise, or (b) ownership of more than fifty percent (50%) of the
-      outstanding shares or beneficial ownership of such entity.
-
-
-2. License Grants and Conditions
-
-2.1. Grants
-
-     Each Contributor hereby grants You a world-wide, royalty-free,
-     non-exclusive license:
-
-     a. under intellectual property rights (other than patent or trademark)
-        Licensable by such Contributor to use, reproduce, make available,
-        modify, display, perform, distribute, and otherwise exploit its
-        Contributions, either on an unmodified basis, with Modifications, or
-        as part of a Larger Work; and
-
-     b. under Patent Claims of such Contributor to make, use, sell, offer for
-        sale, have made, import, and otherwise transfer either its
-        Contributions or its Contributor Version.
-
-2.2. Effective Date
-
-     The licenses granted in Section 2.1 with respect to any Contribution
-     become effective for each Contribution on the date the Contributor first
-     distributes such Contribution.
-
-2.3. Limitations on Grant Scope
-
-     The licenses granted in this Section 2 are the only rights granted under
-     this License. No additional rights or licenses will be implied from the
-     distribution or licensing of Covered Software under this License.
-     Notwithstanding Section 2.1(b) above, no patent license is granted by a
-     Contributor:
-
-     a. for any code that a Contributor has removed from Covered Software; or
-
-     b. for infringements caused by: (i) Your and any other third party's
-        modifications of Covered Software, or (ii) the combination of its
-        Contributions with other software (except as part of its Contributor
-        Version); or
-
-     c. under Patent Claims infringed by Covered Software in the absence of
-        its Contributions.
-
-     This License does not grant any rights in the trademarks, service marks,
-     or logos of any Contributor (except as may be necessary to comply with
-     the notice requirements in Section 3.4).
-
-2.4. Subsequent Licenses
-
-     No Contributor makes additional grants as a result of Your choice to
-     distribute the Covered Software under a subsequent version of this
-     License (see Section 10.2) or under the terms of a Secondary License (if
-     permitted under the terms of Section 3.3).
-
-2.5. Representation
-
-     Each Contributor represents that the Contributor believes its
-     Contributions are its original creation(s) or it has sufficient rights to
-     grant the rights to its Contributions conveyed by this License.
-
-2.6. Fair Use
-
-     This License is not intended to limit any rights You have under
-     applicable copyright doctrines of fair use, fair dealing, or other
-     equivalents.
-
-2.7. Conditions
-
-     Sections 3.1, 3.2, 3.3, and 3.4 are conditions of the licenses granted in
-     Section 2.1.
-
-
-3. Responsibilities
-
-3.1. Distribution of Source Form
-
-     All distribution of Covered Software in Source Code Form, including any
-     Modifications that You create or to which You contribute, must be under
-     the terms of this License. You must inform recipients that the Source
-     Code Form of the Covered Software is governed by the terms of this
-     License, and how they can obtain a copy of this License. You may not
-     attempt to alter or restrict the recipients' rights in the Source Code
-     Form.
-
-3.2. Distribution of Executable Form
-
-     If You distribute Covered Software in Executable Form then:
-
-     a. such Covered Software must also be made available in Source Code Form,
-        as described in Section 3.1, and You must inform recipients of the
-        Executable Form how they can obtain a copy of such Source Code Form by
-        reasonable means in a timely manner, at a charge no more than the cost
-        of distribution to the recipient; and
-
-     b. You may distribute such Executable Form under the terms of this
-        License, or sublicense it under different terms, provided that the
-        license for the Executable Form does not attempt to limit or alter the
-        recipients' rights in the Source Code Form under this License.
-
-3.3. Distribution of a Larger Work
-
-     You may create and distribute a Larger Work under terms of Your choice,
-     provided that You also comply with the requirements of this License for
-     the Covered Software. If the Larger Work is a combination of Covered
-     Software with a work governed by one or more Secondary Licenses, and the
-     Covered Software is not Incompatible With Secondary Licenses, this
-     License permits You to additionally distribute such Covered Software
-     under the terms of such Secondary License(s), so that the recipient of
-     the Larger Work may, at their option, further distribute the Covered
-     Software under the terms of either this License or such Secondary
-     License(s).
-
-3.4. Notices
-
-     You may not remove or alter the substance of any license notices
-     (including copyright notices, patent notices, disclaimers of warranty, or
-     limitations of liability) contained within the Source Code Form of the
-     Covered Software, except that You may alter any license notices to the
-     extent required to remedy known factual inaccuracies.
-
-3.5. Application of Additional Terms
-
-     You may choose to offer, and to charge a fee for, warranty, support,
-     indemnity or liability obligations to one or more recipients of Covered
-     Software. However, You may do so only on Your own behalf, and not on
-     behalf of any Contributor. You must make it absolutely clear that any
-     such warranty, support, indemnity, or liability obligation is offered by
-     You alone, and You hereby agree to indemnify every Contributor for any
-     liability incurred by such Contributor as a result of warranty, support,
-     indemnity or liability terms You offer. You may include additional
-     disclaimers of warranty and limitations of liability specific to any
-     jurisdiction.
-
-4. Inability to Comply Due to Statute or Regulation
-
-   If it is impossible for You to comply with any of the terms of this License
-   with respect to some or all of the Covered Software due to statute,
-   judicial order, or regulation then You must: (a) comply with the terms of
-   this License to the maximum extent possible; and (b) describe the
-   limitations and the code they affect. Such description must be placed in a
-   text file included with all distributions of the Covered Software under
-   this License. Except to the extent prohibited by statute or regulation,
-   such description must be sufficiently detailed for a recipient of ordinary
-   skill to be able to understand it.
-
-5. Termination
-
-5.1. The rights granted under this License will terminate automatically if You
-     fail to comply with any of its terms. However, if You become compliant,
-     then the rights granted under this License from a particular Contributor
-     are reinstated (a) provisionally, unless and until such Contributor
-     explicitly and finally terminates Your grants, and (b) on an ongoing
-     basis, if such Contributor fails to notify You of the non-compliance by
-     some reasonable means prior to 60 days after You have come back into
-     compliance. Moreover, Your grants from a particular Contributor are
-     reinstated on an ongoing basis if such Contributor notifies You of the
-     non-compliance by some reasonable means, this is the first time You have
-     received notice of non-compliance with this License from such
-     Contributor, and You become compliant prior to 30 days after Your receipt
-     of the notice.
-
-5.2. If You initiate litigation against any entity by asserting a patent
-     infringement claim (excluding declaratory judgment actions,
-     counter-claims, and cross-claims) alleging that a Contributor Version
-     directly or indirectly infringes any patent, then the rights granted to
-     You by any and all Contributors for the Covered Software under Section
-     2.1 of this License shall terminate.
-
-5.3. In the event of termination under Sections 5.1 or 5.2 above, all end user
-     license agreements (excluding distributors and resellers) which have been
-     validly granted by You or Your distributors under this License prior to
-     termination shall survive termination.
-
-6. Disclaimer of Warranty
-
-   Covered Software is provided under this License on an "as is" basis,
-   without warranty of any kind, either expressed, implied, or statutory,
-   including, without limitation, warranties that the Covered Software is free
-   of defects, merchantable, fit for a particular purpose or non-infringing.
-   The entire risk as to the quality and performance of the Covered Software
-   is with You. Should any Covered Software prove defective in any respect,
-   You (not any Contributor) assume the cost of any necessary servicing,
-   repair, or correction. This disclaimer of warranty constitutes an essential
-   part of this License. No use of  any Covered Software is authorized under
-   this License except under this disclaimer.
-
-7. Limitation of Liability
-
-   Under no circumstances and under no legal theory, whether tort (including
-   negligence), contract, or otherwise, shall any Contributor, or anyone who
-   distributes Covered Software as permitted above, be liable to You for any
-   direct, indirect, special, incidental, or consequential damages of any
-   character including, without limitation, damages for lost profits, loss of
-   goodwill, work stoppage, computer failure or malfunction, or any and all
-   other commercial damages or losses, even if such party shall have been
-   informed of the possibility of such damages. This limitation of liability
-   shall not apply to liability for death or personal injury resulting from
-   such party's negligence to the extent applicable law prohibits such
-   limitation. Some jurisdictions do not allow the exclusion or limitation of
-   incidental or consequential damages, so this exclusion and limitation may
-   not apply to You.
-
-8. Litigation
-
-   Any litigation relating to this License may be brought only in the courts
-   of a jurisdiction where the defendant maintains its principal place of
-   business and such litigation shall be governed by laws of that
-   jurisdiction, without reference to its conflict-of-law provisions. Nothing
-   in this Section shall prevent a party's ability to bring cross-claims or
-   counter-claims.
-
-9. Miscellaneous
-
-   This License represents the complete agreement concerning the subject
-   matter hereof. If any provision of this License is held to be
-   unenforceable, such provision shall be reformed only to the extent
-   necessary to make it enforceable. Any law or regulation which provides that
-   the language of a contract shall be construed against the drafter shall not
-   be used to construe this License against a Contributor.
-
-
-10. Versions of the License
-
-10.1. New Versions
-
-      Mozilla Foundation is the license steward. Except as provided in Section
-      10.3, no one other than the license steward has the right to modify or
-      publish new versions of this License. Each version will be given a
-      distinguishing version number.
-
-10.2. Effect of New Versions
-
-      You may distribute the Covered Software under the terms of the version
-      of the License under which You originally received the Covered Software,
-      or under the terms of any subsequent version published by the license
-      steward.
-
-10.3. Modified Versions
-
-      If you create software not governed by this License, and you want to
-      create a new license for such software, you may create and use a
-      modified version of this License if you rename the license and remove
-      any references to the name of the license steward (except to note that
-      such modified license differs from this License).
-
-10.4. Distributing Source Code Form that is Incompatible With Secondary
-      Licenses If You choose to distribute Source Code Form that is
-      Incompatible With Secondary Licenses under the terms of this version of
-      the License, the notice described in Exhibit B of this License must be
-      attached.
-
-Exhibit A - Source Code Form License Notice
-
-      This Source Code Form is subject to the
-      terms of the Mozilla Public License, v.
-      2.0. If a copy of the MPL was not
-      distributed with this file, You can
-      obtain one at
-      http://mozilla.org/MPL/2.0/.
-
-If it is not possible or desirable to put the notice in a particular file,
-then You may include the notice in a location (such as a LICENSE file in a
-relevant directory) where a recipient would be likely to look for such a
-notice.
-
-You may add additional accurate notices of copyright ownership.
-
-Exhibit B - "Incompatible With Secondary Licenses" Notice
-
-      This Source Code Form is "Incompatible
-      With Secondary Licenses", as defined by
-      the Mozilla Public License, v. 2.0.
+<!DOCTYPE html> <!--HTML5 Doctype-->
+<html lang="en"> <!--HTML Opening Bracket-->
+<!--Website originally created and kept by: Matthew Castleberry from FIRST Tech Challenge robotics team Monkey Madness 5096-->    
+<!---------------------------Template created by: HTML5 Starter Pack by Sickdesigner.com------------------------------------->    
+<!---------------------------Photo Gallary created by: Wow Sliders----------------------------------------------------------->  
+<!---------------------------Hosted by: Zymic.com---------------------------------------------------------------------------->  
+<!---------------------------Domain by:Go Daddy.com-------------------------------------------------------------------------->
+<!---------------------------Background created with PTC Creo and Adobe Photoshop-------------------------------------------->    
+<head>
+		<meta charset="utf-8"> <!--HTML5 Doctype-->
+<!--Website Declarations-->
+		<title>FTC Team Monkey Madness 5096 Robotics</title><!--Browser Window Title-->      
+		<meta name="description" content="We are FIRST Tech Challenge robotics team 5096 Monkey Madness from Huntsville, Alabama.  We strive to encourage FIRST and FTC in Alabama."/><!--Search Description-->
+		<meta name="keywords" content="robotics, robot, robots, robotics team, robot team, robot competition, robotics website, FIRST, FTC, FIRST Tech Challenge, Monkey Madness, team monkey madness, Team 5096, 5096, Monkey Madness 5096, Huntsville High, Hampton Cove Middle, Hampton Cove, Huntsville, Alabama, Alabama FTC, Alabama FLL" />  <!--Keywords-->
+        <link rel="Shortcut Icon" type="image/ico" href="img/favicon.ico"> <!--Browser Window Icon-->
+<!--Other Apps-->
+		<link rel="stylesheet" href="css/jd.gallery.css" type="text/css" media="screen" charset="utf-8" /><!--Slideshow-->
+		<script src="scripts/mootools-1.2.1-core-yc.js" type="text/javascript"></script>
+		<script src="scripts/mootools-1.2-more.js" type="text/javascript"></script>
+		<script src="scripts/jd.gallery.js" type="text/javascript"></script>
+		<script src="scripts/jd.gallery.transitions.js" type="text/javascript"></script>
+	  <!-----------------------------------------------------------------------------------Start Head----------------------------->	
+<!--Stylesheets/Javascript links-->
+		<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen"> <!-- Reset Styles  -->
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen"> <!-- Main Styles  -->
+        <!--<link rel="stylesheet" href="css/queries/netbooks-tablets.css" type="text/css" media="screen and (max-width: 1007px)" /> <!-- Low Screen Size Styles  -->			
+        <link href='http://fonts.googleapis.com/css?family=Chewy|Nunito:300|Orbitron:500|Play' rel='stylesheet' type='text/css'>  <!-- Google Custom Fonts -->         
+        <!--[if lt IE 9]><script type="text/javascript" src="js/html5.js"></script> 
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> <![endif]-->
+		
+		<!--[if IE 7]><link rel="stylesheet" href="css/ie/ie7.css" type="text/css" media="screen"><![endif]-->
+		
+        <script type="text/javascript" src="js/custom.js"></script>
+<!--SEO and Webmaster Valitdation Codes-->		
+
+<!-----------------------------------------------------------------------------------End Head----------------------------->		 
+</head>
+   
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!--Header and Navigation------------------------------------------------------>
+  		<!--<img alt="" src="background.jpg" id="full-screen-background-image" media="screen" /><!--Background Image--> 
+<header>
+		<div id="wrap">
+			<div class="inside">
+				
+				<a href="index.php"><img class="header" src="images/header.png" alt="Monkey Madness FTC 5096 Robotics"></a><!--Header Image-->
+<!-----------------------------------------------------Navigation Bar---------------------------------------->
+				<ul id="nav">
+				<!--Tab 1--------->
+						<li class="first"><a href="index.php"><br/><h6>Home</h6></a></li>
+				<!--Tab 2---------->
+						<li class="first"> <a href="#ul"><br/><h6>Team&#9660;</h6></a><ul>
+							<li class="secondary"><a href="team-history.php">Members/History</a>
+							<li class="secondary"><a href="team-robots.php">Our Robots</a></li>
+							<li class="secondary"><a href="team-site.php">Our Website</a></li>
+							<li class="secondary"><a href="media-inthemedia.php">In the Media</a></li>
+							<!--<li class="secondary"><a href="team-sponsers.php">Our Sponsors</a></li>-->
+							<!--<li class="secondary"><a href="team-outreach.php">Outreach</a></li>--></ul>
+							</li>
+				<!--Tab 3------
+						<li class="first"> <a href="#ul"><br/><h6>Media&#9660;</h6></a><ul>
+							<li class="secondary"><a href="http://instagram.com/monkeymadness5096?ref=badge">Instagram</a></li>
+							<li class="secondary"><a href="http://www.youtube.com/user/monkeymadnessftc5096?feature=results_main">YouTube</a></li>
+							<li class="secondary"><a href="media-inthemedia.php">In the Media</a></li>
+							</ul>
+						</li>->
+				<!--Tab 4------->
+						<li class="first"> <a href="#ul"><br/><h6>FIRST&#9660;</h6></a><ul>
+							<li class="secondary"><a href="first-overview.php">Overview</a></li>
+							<li class="secondary"><a href="http://alabamajrfll.zzl.org/">Junior FLL</a></li>
+							<li class="secondary"><a href="http://alabamafll.org/">FLL</a></li>
+							<li class="secondary"><a href="http://alabamaftc.org/">FTC</a></li>
+							<li class="secondary"><a href="http://www.usfirst.org/roboticsprograms/frc">FRC</a></li>
+							
+							</ul>
+						</li>	
+				<!--Tab 5---------->
+						<li class="first"> <a href="#ul"><br/><h6>Resources&#9660;</h6></a><ul>
+							<li class="secondary"><a href="resources-tips.php">Our Tips</a></li>
+							<!--<li class="secondary"><a href="resources-qualifier.php">Our Qualifiers</a></li>-->
+														<!--<li class="secondary"><a href="resources-sitemap.php">Sitemap</a></li>-->
+							<li class="secondary"><a href="resources-links.php">Useful Links</a></li>
+							</ul></li>	
+						
+						<li class="first"> <a href="#ul"><br/><h6>Contact Us&#9660;</h6></a><ul>
+							<li class="secondary"><a href="https://www.facebook.com/MonkeyMadness5096?ref=hl">Facebook</a></li>
+							<li class="secondary"><a href="https://twitter.com/Monkey__Madness">Twitter</a></li>
+							<li class="secondary"><a href="http://instagram.com/monkeymadness5096?ref=badge">Instagram</a></li>
+							<li class="secondary"><a href="http://www.youtube.com/user/monkeymadnessftc5096?feature=results_main">YouTube</a></li>
+							<li class="secondary"><a href="mailto:monkeymadness5096@gmail.com">Email</a></li>
+							</ul></li>	
+						
+           </div>
+		</div>
+		 
+		<div id="headerbottom">
+                <br />
+                </div>
+         <div id="headerbottom2">
+                <br />
+                </div>
+				
+</header>
+<br />
+
+<div id="sidebar">
+<style>
+				.ig-b- { display: inline-block; }
+				.ig-b- img { height: 96; visibility: hidden;animation: fadein 10s, bp 0.5s;
+   -moz-animation: fadein 10s, bp 0.5s; /* Firefox */
+   -webkit-animation: fadein 10s, bp 0.5s; /* Safari and Chrome */
+   -o-animation: fadein 10s, bp 0.5s; 
+    background-position:0 0; }
+	@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes bp { /* Safari and Chrome */
+    from {
+        background-position:-200px 0;
+    }
+    to {
+        background-position:0 0;
+    }
+}
+				.ig-b-:hover { background-position: 0 -48px;} .ig-b-:active { background-position: 0 -120px; }
+				.ig-b-facebook { width: 75px;height:48px;position:absolute; top:0; left:0; background: url(images/social/facebook.png) no-repeat 0 0; }
+				.ig-b-twitter { width: 75px; height: 48px; position:absolute;top:43px; left:0; background: url(images/social/twitter.png) no-repeat 0 0; }
+				.ig-b-instagram { width: 75px; height: 48px; position:absolute;top:91px; left:0; background: url(images/social/instagram.png) no-repeat 0 0; }
+				.ig-b-youtube { width: 75px; height: 48px; position:absolute;top:139px; left:0; background: url(images/social/youtube.png) no-repeat 0 0; }
+				.ig-b-gmail { width: 75px; height: 48px; position:absolute;top:187px; left:0; background: url(images/social/gmail.png) no-repeat 0 0; }
+			</style>
+			<a href="https://www.facebook.com/MonkeyMadness5096?ref=hl" class="ig-b- ig-b-facebook"><img src="images/social/facebook.png" alt="Facebook" /></a>
+			<a href="https://twitter.com/Monkey__Madness" class="ig-b- ig-b-twitter"><img src="images/social/twitter.png" alt="Twitter" /></a>
+			<a href="http://instagram.com/monkeymadness5096?ref=badge" class="ig-b- ig-b-instagram"><img src="images/social/instagram.png" alt="Instagram" /></a>
+			<a href="http://www.youtube.com/user/monkeymadnessftc5096?feature=results_main" class="ig-b- ig-b-youtube"><img src="images/social/youtube.png" alt="YouTube" /></a>
+			<a href="mailto:monkeymadness5096@gmail.com" class="ig-b- ig-b-gmail"><img src="images/social/gmail.png" alt="Gmail" /></a>
+</div> 				 
+<!--Main Content--------------------------------------------------------------->	
+
+	
+	 <article class="full">
+			<div id="wrap">	
+			<!--[if ! lt IE 9]> <!--Begin Slideshow-->
+	<script type="text/javascript">
+			function startGallery() {
+				var myGallery = new gallery($('myGallery'), {
+					timed: true,
+					defaultTransition: "fadeslideleft"
+				});
+			}
+			window.addEvent('domready', startGallery);
+		</script>
+	<div id="slideshow">
+	
+	
+			<div id="myGallery">
+				<div class="imageElement">
+					<h3>Who are we?</h3>
+					<p>We are FIRST Tech Challenge(FTC) robotics team 5096 Monkey Madness from Huntsville, AL.  We strive to make a very competitive robot, apply robotics to the real world, spread FIRST, and just to have fun.</p>
+					<a href="#" title="open image" class="open"></a>
+					<img src="images/slideshow/1.jpg" class="full" />
+					<img src="images/slideshow/1-mini.jpg" class="thumbnail" />
+				</div>
+				<div class="imageElement">
+					<h3>Our Robot</h3>
+					<p>This year we created a robot named Si.  He can score on every game element of Block Party.</p>
+					<a href="#" title="open image" class="open"></a>
+					<img src="images/slideshow/2.jpg" class="full" />
+					<img src="images/slideshow/2-mini.jpg" class="thumbnail" />
+				</div>
+				<div class="imageElement">
+					<h3>Outreach</h3>
+					<p>Our team is big on outreach.  We do many outreach events all throughout the year from hosting and volunteering at tournaments to programming classes.  We are pictured volunteering at the first ever Alabama FTC qualifier.</p>
+					<a href="#" title="open image" class="open"></a>
+					<img src="images/slideshow/5.jpg" class="full" />
+					<img src="images/slideshow/5-mini.jpg" class="thumbnail" />
+				</div>				
+				<div class="imageElement">
+					<h3>Mentoring</h3>
+					<p>We mentor several FTC teams and FLL teams.  It is a great experience to help other teams reach their potential.</p>
+					<a href="#" title="open image" class="open"></a>
+					<img src="images/slideshow/4.jpg" class="full" />
+					<img src="images/slideshow/4-mini.jpg" class="thumbnail" />
+				</div>
+				<div class="imageElement">
+					<h3>Fun</h3>
+					<p>Robotics is meant to be fun.  We are posing with a living statue in St. Louis.</p>
+					<a href="#" title="open image" class="open"></a>
+					<img src="images/slideshow/3.jpg" class="full" />
+					<img src="images/slideshow/3-mini.jpg" class="thumbnail" />
+				</div>
+				<div class="imageElement">
+					<h3>Rewards</h3>
+					<p>Robotics helped us reach new heights from being a rookie team one year then becoming part of the World Championshian alliance the next.</p>
+					<a href="#" title="open image" class="open"></a>
+					<img src="images/slideshow/6.jpg" class="full" />
+					<img src="images/slideshow/6-mini.jpg" class="thumbnail" />
+				</div>
+				<div class="imageElement">
+					<h3>Good Friends</h3>
+					<p>We have become friends with teams all around the nation and world.  We are pictured above with our good friends 4251 Cougars and 4140 Fish in the Boat from the 2013 World Championship.</p>
+					<a href="#" title="open image" class="open"></a>
+					<img src="images/slideshow/7.jpg" class="full" />
+					<img src="images/slideshow/7-mini.jpg" class="thumbnail" />
+				</div>
+				<div class="imageElement">
+					<h3>Sponsors</h3>
+					<p>We are very thankful for our many sponsors.  We would not be able to compete without them.</p>
+					<a href="#" title="open image" class="open"></a>
+					<img src="images/slideshow/8.jpg" class="full" />
+					<img src="images/slideshow/8-mini.jpg" class="thumbnail" />
+				</div>
+			</div>
+			</div>
+	<!--End Slideshow-->	 <![endif]-->
+<!--Slideshow------------------------------------------------------------------>
+
+<!--Information------------------------------------------------------------------>
+		<div id="column1">
+			<h3>Who are we?</h3><hr noshade="noshade" />
+			<p class="white">We are a 3rd year <a href="http://www.usfirst.org/roboticsprograms/ftc" title="http://www.usfirst.org/roboticsprograms/ftc">First Tech Challenge (FTC)</a> robotics team this season of 2013-2014.  We are from Huntsville, Alabama. Before we became an FTC team, we participated in FLL since 2006 until we were old enough to switch to FTC.</p><br>
+			<p>This past year we were fortunate enough to win in the Kentucky State Championship and proceed on to the FTC World Championship for the second year.  While at the championship were picked by <a href="http://www.cougarrobot.com/">4251 Cougar Robotics</a> to compete in the finals with <a href="http://www.fishintheboat.org/">4140 Fish in the Boat</a>.  Our alliance together were undefeated through the finals, winning the entire World Championship.</p><br>
+			<p>This year, we advanced from the San Antonio, TX South Super Regional to the <b>FTC World Championship</b>  We are looking forward to competing against the best teams in the world.</p>
+			 
+			
+		</div>
+	
+		<div id="column2">
+			<h3>What's FIRST</h3><hr noshade="noshade" />
+			<p class="white"><a href="http://www.usfirst.org" title="http://freehtml5templates.com">FIRST Robotics</a>  is a robotics program to catch the interest of young students founded by Dean Kamen, the inventor of the Segway.  It is composed of four different programs: Jr. FIRST Lego Legue, FIRST Lego Legue, FIRST Tech Challenge, and FIRST Robotics Competition.</p>
+			</div>
+	
+		<div id="column3">
+			<h3>How to Get Involved</h3><hr noshade="noshade" />
+			<p class="white">There are several ways to get involved. If you are student, you can ask your friends to help you form up a team.  If you are an adult, you can mentor and coach a team.  Forming teams are not the only way to get involved.  There are plenty of opportunities to volunteer at qualifiers like as referees, judges, and even work the concession.  For more information you can go to <a href="http://alabamaftc.org/">www.alabamaftc.org</a></p>
+				
+		</div>
+        </div> 		
+ </article> 
+   <article class="full">
+			<div id="wrap">
+<div id="facebook">
+<div class="fb-like-box" data-href="https://facebook.com/MonkeyMadness5096?id=473271682706164&amp;_rdr" height="600" data-width="470" data-show-faces="false" data-colorscheme="dark" data-stream="true" data-border-color="yellow" data-header="true"></div></div>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<div id="twitter">
+<a class="twitter-timeline" data-dnt="true" data-border-color="#FFEE00" data-chrome="nofooter transparent" data-border-color="yellow" href="https://twitter.com/Monkey__Madness" data-widget-id="330666139568967680">Tweets by @Monkey__Madness</a>
+</div>
+		
+			
+			
+		</div>
+		 </div> 		
+ </article>
+
+<!--Footer------------------------------------------------------------------>                
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<footer style="height:220px;" >
+	<div id="wrap">
+
+		<img src="images/sponsors/aegiswhite.png" width="150" style="float:left;position:absolute;left:35px;top:110px;">
+		<img src="images/sponsors/pathfinder.png" width="300" style="float:left;position:absolute;left:5px;top:15px;">
+		<img src="images/sponsors/integraph.png" width="300" style="float:left;position:absolute;left:350px;top:15px;">
+		<img src="images/sponsors/penta.png" width="300" style="float:right;position:absolute;right:5px;top:15px;">
+		<img src="images/sponsors/ndep.png" width="50" style="float:right;position:absolute;right:25px;top:90px;">
+		<img src="images/sponsors/ptc.png" width="100" style="float:right;position:absolute;right:100px;top:110px;">
+		<img src="images/sponsors/boeing.png" width="540" style="float:left;position:absolute;margin-left:220px;margin-top:90px;">
+		
+    </div>
+</footer> 
+<!--Closing Tags-------------------------------------------------------------->       
+</body>
+</html>
