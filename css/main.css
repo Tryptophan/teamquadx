@@ -1,21 +1,5 @@
 /* Main styles for text and containers */
 
-body {
-	font-family: sans-serif;
-}
-
-h1 {
-	font-size: 40px;
-}
-
-h2 {
-	font-size: 20px;
-}
-
-p {
-	font-size: 12px;
-}
-
 .header {
 	top: 0px;
 	height: 80px;
@@ -25,12 +9,6 @@ p {
 .content {
 	width: 800px;
 	margin: 0 auto;
-}
-
-.container {
-	width: 400px;
-	border-radius: 0px 0px 5px 5px;
-	border-bottom: 10px solid #000;
 }
 
 .footer {
