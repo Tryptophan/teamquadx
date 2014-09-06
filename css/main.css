@@ -1,13 +1,25 @@
 /* Main styles for text and containers */
 
 .content-container {
-	width: 75%;
+	width: 80%;
+	margin: 0 auto;
+	padding: 5px;
+	position: relative;
+}
+
+.circle-link {
+	width: 150px;
 	margin: 0 auto;
 }
 
 .category-img {
 	background-color: #BBB;
-	width: 20%;
-	height: 40px;
-	margin: 0 auto;
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	margin-bottom: 20px;
+}
+
+.filler {
+	height: 1000px;
 }
