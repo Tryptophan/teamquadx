@@ -3,7 +3,7 @@
 .content-container {
 	width: 80%;
 	margin: 0 auto;
-	padding: 5px;
+	padding-top: 10px;
 	position: relative;
 }
 
@@ -14,12 +14,22 @@
 
 .category-img {
 	background-color: #BBB;
-	width: 150px;
-	height: 150px;
-	border-radius: 150px;
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
 	margin-bottom: 20px;
 }
 
-.filler {
-	height: 1000px;
+.circle-link .btn{
+	width: 200px;
+}
+
+.content-container .row {
+	margin-bottom: 20px;
+}
+
+.footer {
+	height: 200px;
+	bottom: 0px;
+	background-color: #BBB;
 }
