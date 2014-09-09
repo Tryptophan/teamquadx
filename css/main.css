@@ -8,19 +8,15 @@
 
 #landing-img {
 	max-width: 100%;
-	height: auto;
 	margin-bottom: 20px;
 }
 
-.jumbo-gallery {
-	padding-left: 15px;
-	padding-right: 15px;
+#landing-btn {
+	width: 120px;
+	left: 46%;
+	top: 50%;
+	position: absolute;
 }
-
-.jumbo-gallery img {
-	height: 100%;
-}
-
 
 .jumbotron .hidden-sm, .hidden-xs .col-md-8, .col-md-4, .col-md-12 {
 	padding: 0px;
