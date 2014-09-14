@@ -156,3 +156,54 @@
 	margin-top: 15px;
 	height: 100px;
 }
+
+/* the-team.html styles */
+
+#project-managers {
+	width: 100%;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.team-member-container div {
+	height: 200px;
+	width: 200px;
+	background-color: #BBB;
+	border-radius: 200px;
+	margin: 0 auto;
+}
+
+.team-member-container h1, p {
+	text-align: center;
+}
+
+#team-members {
+	width: 100%;
+	display: inline-block;
+	float: left;
+	text-align: center;
+}
+
+#features-xs-sm {
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+}
+
+#features-xs-sm ul {
+	width: 70%;
+	margin: auto;
+}
+
+#feature-description-xs-sm {
+	margin-bottom: 20px;
+}
+
+#feature-description-xs-sm img {
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	height: 100px;
+}
