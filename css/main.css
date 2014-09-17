@@ -207,3 +207,26 @@
 	margin-top: 10px;
 	height: 100px;
 }
+
+/* events.html styles */
+
+.event-panel img {
+	width: 250px;
+	margin: 0 auto;
+	display: inline-block;
+	float: left;
+}
+
+.event-panel {
+	font-size: 20px;
+}
+
+.event-panel .panel {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+.event-panel-text {
+
+}
