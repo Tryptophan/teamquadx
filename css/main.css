@@ -112,29 +112,28 @@
 	min-width: 100%;
 }
 
+#robot-features {
+	width: 800px;
+	margin: 0 auto;
+}
+
 #unfocused-features {
 	width: 100%;
 	display: inline-block;
-	float: right;
 	text-align: center;
 	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-#unfocused-features :last-child {
-	margin-right: 0px;
 }
 
 #unfocused-features > div {
-	width: 150px;
+	width: 200px;
 	display: inline-block;
-	margin-right: 100px;
 }
 
 .robot-feature {
 	background-color: #BBB;
 	width: 150px;
 	height: 150px;
+	margin: 0 auto;
 	border-radius: 150px;
 	margin-bottom: 20px;
 }
@@ -188,8 +187,8 @@
 }
 
 #features-xs-sm {
-	width: 100%;
-	float: left;
+	width: 360px;
+	margin: 0 auto;
 	margin-bottom: 20px;
 }
 
