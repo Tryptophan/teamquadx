@@ -186,15 +186,23 @@
 	text-align: center;
 }
 
-#features-xs-sm {
-	width: 360px;
+#features-xs {
+	width: 210px;
 	margin: 0 auto;
 	margin-bottom: 20px;
+	font-size: 10px; 
+}
+
+#features-sm {
+	width: 252px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	font-size: 14px; 
 }
 
 #features-xs-sm ul {
 	width: 70%;
-	margin: auto;
+	margin: 0 auto;
 }
 
 #feature-description-xs-sm {
@@ -204,8 +212,8 @@
 #feature-description-xs-sm img {
 	float: left;
 	margin-right: 10px;
-	margin-top: 10px;
-	height: 100px;
+	margin-top: 5px;
+	height: 50px;
 }
 
 /* events.html styles */
