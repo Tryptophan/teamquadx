@@ -892,8 +892,8 @@ body {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #555555;
-  background-color: #ffffff;
+  color: #FFF;
+  background-color: #6699CC;
 }
 input,
 button,
@@ -993,7 +993,7 @@ h6,
   font-family: inherit;
   font-weight: 400;
   line-height: 1.1;
-  color: #333333;
+  color: #FFF;
 }
 h1 small,
 h2 small,
@@ -5307,8 +5307,7 @@ a.list-group-item-danger.active:focus {
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
-  background-color: #fafafa;
-  border: 1px solid #e8e8e8;
+  background-color: #003366;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -6504,7 +6503,6 @@ label {
   box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.15);
 }
 .well {
-  border: 1px solid #e7e7e7;
   -webkit-box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.05);
 }
