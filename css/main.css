@@ -75,9 +75,9 @@
 .footer {
 	height: 300px;
 	bottom: 0px;
-	background-color: #336699;
-	-webkit-box-shadow: inset 0 3px 0 #6699CC;
-	box-shadow: inset 0 3px 0 #6699CC;
+	background-color: #CC9900;
+	-webkit-box-shadow: inset 0 3px 0 #F4CA16;
+	box-shadow: inset 0 3px 0 #F4CA16;
 	clear: both;
 }
 
