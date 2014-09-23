@@ -110,6 +110,7 @@
 	background-repeat: no-repeat;
 	background-size: 100%;
 	min-width: 100%;
+	border-radius: 4px;
 }
 
 #robot-features {
@@ -155,6 +156,18 @@
 	margin-right: 10px;
 	margin-top: 15px;
 	height: 100px;
+}
+
+/* TODO: BLOCK OUT TIMELINE
+
+/*.timeline {
+    
+}*/
+
+
+#stat-list {
+	font-size: 20px;
+	list-style-type: circle;
 }
 
 /* the-team.html styles */
