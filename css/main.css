@@ -241,6 +241,29 @@
 
 /* events.html styles */
 
+.calender-container {
+	margin: 0px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.calender {
+	padding: 5px;
+	background-color: #AAA;
+}
+
+.legend {
+	background-color: #BBB;
+}
+
+.title {
+	border-radius: 4px;
+	background-color: #CC9900;
+	padding-top: 5px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
 .event-details {
 	text-align: center;
 }
