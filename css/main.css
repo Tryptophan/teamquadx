@@ -1,5 +1,9 @@
 /* Main styles for text and containers */
 
+.page-header h1 {
+	color: #CC9900;
+}
+
 .content-container {
 	padding-top: 20px;
 	width: 80%;
@@ -241,27 +245,17 @@
 
 /* events.html styles */
 
-.calender-container {
-	margin: 0px;
-	margin-bottom: 20px;
-	overflow: hidden;
-}
-
 .calender {
-	padding: 5px;
-	background-color: #AAA;
 }
 
 .legend {
-	background-color: #BBB;
+	text-align: center;
+	background-color: #CC9900;
 }
 
-.title {
-	border-radius: 4px;
-	background-color: #CC9900;
-	padding-top: 5px;
-	margin-bottom: 20px;
-	text-align: center;
+.legend div {
+	font-size: 14px;
+	margin-bottom: 5px;
 }
 
 .event-details {
@@ -270,4 +264,17 @@
 
 .event-border {
 	border-top: 4px #F4CA16 solid;
+}
+
+/* resources.html styles */
+.alert .glyphicon {
+	margin-right: 10px;
+}
+
+.title {
+	background-color: #CC9900;
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 20px;
+	border-radius: 4px;
 }
