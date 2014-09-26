@@ -258,6 +258,22 @@
 	margin-bottom: 5px;
 }
 
+.legend-co {
+	background-color: #158cba;
+}
+
+.legend-m {
+	background-color: #28b62c;
+}
+
+.legend-bd {
+	background-color: #ff4136;
+}
+
+.legend-fr {
+	background-color: #75caeb;
+}
+
 .event-details {
 	text-align: center;
 }
@@ -280,6 +296,11 @@
 	padding: 0px;
 }
 
+.tutor > div{
+	width: 300px;
+	margin: 0 auto;
+}
+
 .tutor-name {
 	color: #000;
 	display: inline-block;
@@ -287,4 +308,8 @@
 	height: 150px;
 	width: 150px;
 	font-size: 18px;
+}
+
+.tutor-details {
+	font-size: 14px;
 }
