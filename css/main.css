@@ -97,6 +97,8 @@
 .footer {
 	height: 300px;
 	bottom: 0px;
+	padding-left: 10%;
+	padding-right: 10%;
 	background-color: #CC9900;
 	-webkit-box-shadow: inset 0 3px 0 #F4CA16;
 	box-shadow: inset 0 3px 0 #F4CA16;
@@ -104,23 +106,57 @@
 }
 
 .footer-links {
-	width: 80%;
+	width: 393px;
 	margin: 0 auto;
 	padding-top: 35px;
+	font-size: 40px;
 }
 
-.footer-links .btn-link {
-	padding: 4px 0px 4px 0px;
+.footer-links a {
+	margin-right: 40px;
 }
 
-.footer-links a{
-	float: right;
-	display: block;
-	clear: both;
+.footer-links a div {
+	display: inline-block;
 }
 
-.footer-links p {
-	font-size: 14px;
+.footer-links :last-child {
+	margin-right: 0px;
+}
+
+.github-icon {
+	width: 32px;
+	height: 32px;
+	background-image: url("../img/social-media/github.png");
+	background-repeat: no-repeat;
+}
+
+.youtube-icon {
+	width: 32px;
+	height: 32px;
+	background-image: url("../img/social-media/youtube.png");
+	background-repeat: no-repeat;
+}
+
+.facebook-icon {
+	width: 32px;
+	height: 32px;
+	background-image: url("../img/social-media/facebook.png");
+	background-repeat: no-repeat;
+}
+
+.twitter-icon {
+	width: 32px;
+	height: 32px;
+	background-image: url("../img/social-media/twitter.png");
+	background-repeat: no-repeat;
+}
+
+.email-icon {
+	width: 32px;
+	height: 32px;
+	background-image: url("../img/social-media/email.png");
+	background-repeat: no-repeat;
 }
 
 /* our-robot.html styles */
@@ -305,13 +341,13 @@
 	margin-right: 10px;
 }
 
-.tutor {
+.tutor-xs-sm, .tutor-md-lg {
 	padding: 0px;
-	margin-bottom: 20px;	
+	margin-bottom: 20px;
 }
 
-.tutor .col-md-6 {
-	padding: 0px;
+.tutor-xs-sm, .tutor-md-lg .col-md-6 {
+	padding-right: 15px;
 }
 
 .tutor-md-lg > div {
