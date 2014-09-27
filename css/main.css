@@ -61,11 +61,21 @@
 }
 
 .category-img {
-	background-color: #BBB;
+	background-color: #CC9900;
 	width: 150px;
 	height: 150px;
+	text-align: center;
 	border-radius: 150px;
 	margin-bottom: 20px;
+}
+
+.category-img .glyphicon {
+	font-size: 70px;
+	top: 40px;
+}
+
+.category-img .glyphicon-calendar {
+	left: 4px;
 }
 
 .circle-link .btn{
@@ -73,6 +83,14 @@
 }
 
 .content-container .btn {
+	margin-bottom: 20px;
+}
+
+.acheivements {
+	text-align: center;
+}
+
+.acheivements .img-thumbnail {
 	margin-bottom: 20px;
 }
 
