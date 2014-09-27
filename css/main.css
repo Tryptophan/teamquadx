@@ -296,8 +296,13 @@
 	padding: 0px;
 }
 
-.tutor > div{
+.tutor-md-lg > div {
 	width: 300px;
+	margin: 0 auto;
+}
+
+.tutor-xs-sm > div {
+	width: 150px;
 	margin: 0 auto;
 }
 
