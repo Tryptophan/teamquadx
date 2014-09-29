@@ -233,7 +233,9 @@
 #team-picture {
 	width: 100%;
 	height: 400px;
-	background-color: #BBB;
+	background-color: #CC9900;
+	background-image: url("../img/team-pictures/team.jpg");
+	background-repeat: no-repeat;
 	margin-bottom: 20px;
 	border-radius: 4px;
 }
