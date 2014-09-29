@@ -255,6 +255,52 @@
 	margin: 0 auto;
 }
 
+/* Team id's */
+
+#sahil {
+	background-image: url("../img/team-pictures/sahil.jpg");
+}
+
+#linnea {
+	background-image: url("../img/team-pictures/linnea.jpg");
+}
+
+#jacob {
+	background-image: url("../img/team-pictures/jacob.jpg");
+}
+
+#eddie {
+	background-image: url("../img/team-pictures/eddie.jpg");
+}
+
+#tiffany {
+	background-image: url("../img/team-pictures/tiffany.jpg");
+}
+
+#josh {
+	background-image: url("../img/team-pictures/josh.jpg");
+}
+
+#tyler {
+	background-image: url("../img/team-pictures/tyler.jpg");
+}
+
+#lizzy {
+	background-image: url("../img/team-pictures/lizzy.jpg");
+}
+
+#chandler {
+	background-image: url("../img/team-pictures/chandler.jpg");
+}
+
+#raj {
+	background-image: url("../img/team-pictures/raj.jpg");
+}
+
+#reagan {
+	background-image: url("../img/team-pictures/reagan.jpg");
+}
+
 .team-member-container h1 p {
 	text-align: center;
 }
