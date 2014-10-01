@@ -29,12 +29,12 @@
 					<li><a href="index.html">Home</a></li>
 					<li><a href="our-robot.html">Our Robot</a></li>
 					<li><a href="the-team.html">The Team</a></li>
-					<li class="active"><a href="events.html">Events</a></li>
+					<li><a href="events.html">Events</a></li>
 					<li><a href="resources.html">Resources</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="blog.html">Blog</a></li>
-					<li><a href="contact-us.html">Contact</a></li>
+					<li class="active"><a href="contact-us.html">Contact</a></li>
 				</ul>
 			</div> <!-- /.navbar-collapse -->
 		</div> <!-- /.container-fluid -->
@@ -42,29 +42,46 @@
 
 	<div class="content-container">
 
-			<div class="calender well">
-				<h1>Upcoming Events</h1>
-				<div class="events">
-					<ul class="list-group">
-						<li class="list-group-item"><span class="badge legend-bd">Vandegrift HS - October 18th, 2014</span>Build Day</li>
-						<li class="list-group-item"><span class="badge">200</span>Maximum scored in competition</li>
-						<li class="list-group-item"><span class="badge">415</span>Best score with an alliance partner</li>
-						<li class="list-group-item"><span class="badge">245</span>Maximum Scored in practice</li>
-						<li class="list-group-item"><span class="badge">200</span>Maximum scored in competition</li>
-						<li class="list-group-item"><span class="badge">415</span>Best score with an alliance partner</li>
-						<li class="list-group-item"><span class="badge">245</span>Maximum Scored in practice</li>
-						<li class="list-group-item"><span class="badge">200</span>Maximum scored in competition</li>
-						<li class="list-group-item"><span class="badge">415</span>Best score with an alliance partner</li>
-					</ul>
+		<div class="page-header"><h1>Contact Us</h1></div>
+
+		<form class="form-horizontal">
+			<fieldset>
+				<div class="form-group">
+					<label for="inputEmail" class="col-lg-2 control-label">Email</label>
+					<div class="col-md-8">
+						<input type="text" class="form-control" id="inputEmail" placeholder="Email">
+					</div>
 				</div>
-			<div class="legend">
-				<div class="badge">Competitions</div>
-				<div class="badge legend-co">Community Outreach</div> 
-				<div class="badge legend-m">Mentoring</div>
-				<div class="badge legend-bd">Build Days</div>
-				<div class="badge legend-fr">Fund Raisers</div>
-			</div>
-		</div>
+
+				<div class="form-group">
+					<label for="select" class="col-lg-2 control-label">Selects</label>
+					<div class="col-md-8">
+						<select class="form-control" id="select">
+							<option>Team Quadx</option>
+							<option>Linnea May</option>
+							<option>Jacob Greenway</option>
+							<option>Eddie Bates</option>
+							<option>Tiffany Do</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label for="textArea" class="col-lg-2 control-label">Textarea</label>
+					<div class="col-md-8">
+						<textarea class="form-control" rows="3" id="textArea"></textarea>
+						<span class="help-block">Leave a message or ask us something!</span>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<div class="col-lg-10 col-lg-offset-2">
+						<button type="submit" class="btn btn-primary">Submit</button>
+					</div>
+				</div>
+
+			</fieldset>
+		</form>
 
 	</div>
 

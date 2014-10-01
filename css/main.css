@@ -106,15 +106,28 @@
 	clear: both;
 }
 
-.footer-links {
+.footer-links-sm-md-lg {
+	width: 332px;
+	margin: 0 auto;
+	padding-top: 35px;
+}
+
+.footer-links-xs {
 	width: 393px;
 	margin: 0 auto;
 	padding-top: 35px;
-	font-size: 40px;
 }
 
-.footer-links a {
+.footer-links-xs {
+	width: 152px;
+}
+
+.footer-links-sm-md-lg a {
 	margin-right: 40px;
+}
+
+.footer-links-xs a {
+	margin-right: 10px;
 }
 
 .footer-links a div {
@@ -125,40 +138,78 @@
 	margin-right: 0px;
 }
 
-.github-icon {
+.github-icon-sm-md-lg {
 	width: 32px;
 	height: 32px;
 	background-image: url("../img/social-media/github.png");
 	background-repeat: no-repeat;
 }
 
-.youtube-icon {
+.youtube-icon-sm-md-lg {
 	width: 32px;
 	height: 32px;
 	background-image: url("../img/social-media/youtube.png");
 	background-repeat: no-repeat;
 }
 
-.facebook-icon {
+.facebook-icon-sm-md-lg {
 	width: 32px;
 	height: 32px;
 	background-image: url("../img/social-media/facebook.png");
 	background-repeat: no-repeat;
 }
 
-.twitter-icon {
+.twitter-icon-sm-md-lg {
 	width: 32px;
 	height: 32px;
 	background-image: url("../img/social-media/twitter.png");
 	background-repeat: no-repeat;
 }
 
-.email-icon {
+.email-icon-sm-md-lg {
 	width: 32px;
 	height: 32px;
 	background-image: url("../img/social-media/email.png");
 	background-repeat: no-repeat;
 }
+
+/* small social media icons */
+
+.github-icon-xs {
+	width: 20px;
+	height: 20px;
+	background-image: url("../img/social-media-xs/github.png");
+	background-repeat: no-repeat;
+}
+
+.youtube-icon-xs {
+	width: 20px;
+	height: 20px;
+	background-image: url("../img/social-media-xs/youtube.png");
+	background-repeat: no-repeat;
+}
+
+.facebook-icon-xs {
+	width: 20px;
+	height: 20px;
+	background-image: url("../img/social-media-xs/facebook.png");
+	background-repeat: no-repeat;
+}
+
+.twitter-icon-xs {
+	width: 20px;
+	height: 20px;
+	background-image: url("../img/social-media-xs/twitter.png");
+	background-repeat: no-repeat;
+}
+
+.email-icon-xs {
+	width: 20px;
+	height: 20px;
+	background-image: url("../img/social-media-xs/email.png");
+	background-repeat: no-repeat;
+}
+
 
 /* our-robot.html styles */
 
