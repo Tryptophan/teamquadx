@@ -4,6 +4,12 @@
 	color: #CC9900;
 }
 
+.navbar-header .glyphicon {
+	padding-top: 8px;
+	height: 32px;
+	padding-bottom: 0px;
+}
+
 .content-container {
 	padding-top: 20px;
 	width: 80%;
