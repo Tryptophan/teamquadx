@@ -92,6 +92,14 @@
 	margin-bottom: 20px;
 }
 
+.trophies div{
+	text-align: center;
+}
+
+.trophies p {
+	font-size: 14px;
+}
+
 .acheivements {
 	border-radius: 4px;
 	width: 100%;
@@ -99,6 +107,7 @@
 	background-image: url("../img/robot.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
+	margin-bottom: 10px;
 }
 
 .footer {
