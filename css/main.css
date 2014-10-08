@@ -56,7 +56,7 @@
 	padding-bottom: 15px;
 }
 
-#landing-btn {
+.landing-btn {
 	width: 130px;
 	margin: 0 auto;
 }
@@ -134,7 +134,7 @@
 }
 
 .footer-links-xs {
-	width: 152px;
+	width: 212px;
 }
 
 .footer-links-sm-md-lg a {
@@ -153,75 +153,38 @@
 	margin-right: 0px;
 }
 
-.github-icon-sm-md-lg {
+.github-icon {
 	width: 32px;
 	height: 32px;
 	background-image: url("../img/social-media/github.png");
 	background-repeat: no-repeat;
 }
 
-.youtube-icon-sm-md-lg {
+.youtube-icon {
 	width: 32px;
 	height: 32px;
 	background-image: url("../img/social-media/youtube.png");
 	background-repeat: no-repeat;
 }
 
-.facebook-icon-sm-md-lg {
+.facebook-icon {
 	width: 32px;
 	height: 32px;
 	background-image: url("../img/social-media/facebook.png");
 	background-repeat: no-repeat;
 }
 
-.twitter-icon-sm-md-lg {
+.twitter-icon {
 	width: 32px;
 	height: 32px;
 	background-image: url("../img/social-media/twitter.png");
 	background-repeat: no-repeat;
 }
 
-.email-icon-sm-md-lg {
+.email-icon {
 	width: 32px;
 	height: 32px;
 	background-image: url("../img/social-media/email.png");
-	background-repeat: no-repeat;
-}
-
-/* small social media icons */
-
-.github-icon-xs {
-	width: 20px;
-	height: 20px;
-	background-image: url("../img/social-media-xs/github.png");
-	background-repeat: no-repeat;
-}
-
-.youtube-icon-xs {
-	width: 20px;
-	height: 20px;
-	background-image: url("../img/social-media-xs/youtube.png");
-	background-repeat: no-repeat;
-}
-
-.facebook-icon-xs {
-	width: 20px;
-	height: 20px;
-	background-image: url("../img/social-media-xs/facebook.png");
-	background-repeat: no-repeat;
-}
-
-.twitter-icon-xs {
-	width: 20px;
-	height: 20px;
-	background-image: url("../img/social-media-xs/twitter.png");
-	background-repeat: no-repeat;
-}
-
-.email-icon-xs {
-	width: 20px;
-	height: 20px;
-	background-image: url("../img/social-media-xs/email.png");
 	background-repeat: no-repeat;
 }
 
@@ -233,26 +196,18 @@
 	height: 300px;
 	background-image: url("../img/robot.jpg");
 	background-repeat: no-repeat;
-	background-size: 100%;
-	min-width: 100%;
+	background-position: center;
+	width: 100%;
 	border-radius: 4px;
-}
-
-#robot-features {
-	width: 800px;
 	margin: 0 auto;
+	margin-bottom: 20px;
 }
 
 #unfocused-features {
 	width: 100%;
 	display: inline-block;
+	float: left;
 	text-align: center;
-	margin-top: 20px;
-}
-
-#unfocused-features > div {
-	width: 200px;
-	display: inline-block;
 }
 
 .robot-feature {
