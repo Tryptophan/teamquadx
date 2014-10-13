@@ -114,6 +114,10 @@
 	font-size: 14px;
 }
 
+.acheivement-container p, u {
+	font-size: 10px;
+}
+
 .acheivements {
 	border-radius: 4px;
 	width: 100%;
@@ -253,39 +257,46 @@
 }
 
 .timeline {
+	width: 10px;
 	position: relative;
-    width: 100%;
-    height: 20px;
+    height: 600px;
     background-color: #CC9900;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 40px auto 40px auto;
     border-radius: 4px;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .entry {
-	display: none;
-	height: 100px;
+	position: absolute;
+	left: -10px;
+	width: 30px;
+	height: 30px;
+	border-radius: 20px;
+	background-color: #CC9900;
+	border: 8px #F4CA16 solid;
 }
 
-.entries {
-	margin: 0 auto;
-	text-align: center;
+#entry-1 {
+	top: 15px;
 }
 
-.entries div {
-	display: inline-block;
-    vertical-align: top;
-	top: 0px;
-	width: 10%;
-	height: 20px;
-	margin-right: 3%;
-	background-color: #F4CA16;
+#entry-2 {
+	top: 80px;
 }
 
-.entries div:last-child {
-	margin-right: 0%;
+#entry-3 {
+	top: 120px;
+}
+
+#entry-4 {
+	top: 300px;
+}
+
+#entry-5 {
+	top: 400px;
+}
+
+#entry-6 {
+	top: 500px;
 }
 
 #stat-list {
