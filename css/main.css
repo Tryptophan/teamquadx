@@ -114,7 +114,11 @@
 	font-size: 14px;
 }
 
-.acheivement-container p, u {
+.acheivement-container u {
+	font-size: 12px;
+}
+
+.acheivement-container p {
 	font-size: 10px;
 }
 
@@ -256,6 +260,11 @@
 	height: 100px;
 }
 
+.timeline-container {
+	position: relative;
+	margin-bottom: 100px;
+}
+
 .timeline {
 	width: 10px;
 	position: relative;
@@ -263,6 +272,43 @@
     background-color: #CC9900;
     margin: 40px auto 40px auto;
     border-radius: 4px;
+}
+
+.timeline-left blockquote {
+	float: left;
+	position: absolute;
+	width: 40%;
+}
+
+.timeline-right blockquote {
+	left: 60%;
+	width: 40%;
+	float: right;
+	position: absolute;
+}
+
+#left-entry-1 {
+	top: 15px;
+}
+
+#right-entry-1 {
+	top: 80px;
+}
+
+#left-entry-2 {
+	top: 120px;
+}
+
+#right-entry-2 {
+	top: 300px;
+}
+
+#left-entry-3 {
+	top: 400px;
+}
+
+#right-entry-3 {
+	top: 500px;
 }
 
 .entry {
@@ -273,6 +319,10 @@
 	border-radius: 20px;
 	background-color: #CC9900;
 	border: 8px #F4CA16 solid;
+}
+
+.timeline-entry p {
+	color: #000;
 }
 
 #entry-1 {

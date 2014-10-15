@@ -34,7 +34,7 @@
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="blog.html">Blog</a></li>
-					<li class="active"><a href="contact-us.html">Contact</a></li>
+					<li class="active"><a href="contact-us.php">Contact</a></li>
 				</ul>
 			</div> <!-- /.navbar-collapse -->
 		</div> <!-- /.container-fluid -->
@@ -51,7 +51,7 @@
 				<div class="form-group">
 					<label for="inputEmail" class="col-lg-2 control-label">Email</label>
 					<div class="col-md-8">
-						<input type="text" class="form-control" id="inputEmail" placeholder="Email">
+						<input type="text" class="form-control" id="email" placeholder="Email" name="email">
 					</div>
 				</div>
 
@@ -103,6 +103,13 @@
 			<a href="http://teamquadx.org/contact-us.html"><div class="email-icon"></div></a>
 		</div>
 	</div>
+
+	<?php
+		$subject = "Automated email from teamquadx.org, DO NOT REPLY.";
+		$message = "";
+		$email_to = $;
+		$email = email;
+	?>
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
