@@ -1,35 +1,35 @@
-$(".robot-btn").click(function() {
-	$(".robot-des").css("display", "none");
-	$(".slide-des").css("display", "none");
-	$(".gyro-des").css("display", "none");
-	$(".wheel-des").css("display", "none");
+$("#robot-btn").click(function() {
+	$(".robot-des").slideUp();
+	$(".slide-des").slideUp();
+	$(".gyro-des").slideUp();
+	$(".wheel-des").slideUp();
 
-	$(".robot-des").css("display", "block");	
+	$(".robot-des").slideDown();	
 });
 
 $("#slide-btn").click(function() {
-	$(".robot-des").css("display", "none");
-	$(".slide-des").css("display", "none");
-	$(".gyro-des").css("display", "none");
-	$(".wheel-des").css("display", "none");
+	$(".robot-des").slideUp();
+	$(".slide-des").slideUp();
+	$(".gyro-des").slideUp();
+	$(".wheel-des").slideUp();
 
-	$(".slide-des").css("display", "block");	
+	$(".slide-des").slideDown();	
 });
 
 $("#gyro-btn").click(function() {
-	$(".robot-des").css("display", "none");
-	$(".slide-des").css("display", "none");
-	$(".gyro-des").css("display", "none");
-	$(".wheel-des").css("display", "none");
+	$(".robot-des").slideUp();
+	$(".slide-des").slideUp();
+	$(".gyro-des").slideUp();
+	$(".wheel-des").slideUp();
 
-	$(".gyro-des").css("display", "block");	
+	$(".gyro-des").slideDown();	
 });
 
 $("#wheel-btn").click(function() {
-	$(".robot-des").css("display", "none");
-	$(".slide-des").css("display", "none");
-	$(".gyro-des").css("display", "none");
-	$(".wheel-des").css("display", "none");
+	$(".robot-des").slideUp();
+	$(".slide-des").slideUp();
+	$(".gyro-des").slideUp();
+	$(".wheel-des").slideUp();
 
-	$(".wheel-des").css("display", "block");	
+	$(".wheel-des").slideDown();	
 });
