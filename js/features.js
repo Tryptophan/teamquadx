@@ -1,35 +1,54 @@
-$("#robot-btn").click(function() {
-	$(".robot-des").slideUp();
-	$(".slide-des").slideUp();
-	$(".gyro-des").slideUp();
-	$(".wheel-des").slideUp();
+// Click Effects
 
-	$(".robot-des").slideDown();	
+$("#robot-btn").click(
+	function() {
+		$(".feature-nav").stop().animate({
+			top: "8%"
+		}, 250);
+	$(".robot-des").stop().slideUp();
+	$(".slide-des").stop().slideUp();
+	$(".gyro-des").stop().slideUp();
+	$(".wheel-des").stop().slideUp();
+
+	$(".robot-des").stop().slideDown();
 });
 
-$("#slide-btn").click(function() {
-	$(".robot-des").slideUp();
-	$(".slide-des").slideUp();
-	$(".gyro-des").slideUp();
-	$(".wheel-des").slideUp();
+$("#slide-btn").click(
+	function() {
+		$(".feature-nav").stop().animate({
+			top: "33%"
+		}, 250);
+	$(".robot-des").stop().slideUp();
+	$(".slide-des").stop().slideUp();
+	$(".gyro-des").stop().slideUp();
+	$(".wheel-des").stop().slideUp();
 
-	$(".slide-des").slideDown();	
+	$(".slide-des").stop().slideDown();
 });
 
-$("#gyro-btn").click(function() {
-	$(".robot-des").slideUp();
-	$(".slide-des").slideUp();
-	$(".gyro-des").slideUp();
-	$(".wheel-des").slideUp();
+$("#gyro-btn").click(
+	function() {
+		$(".feature-nav").stop().animate({
+			top: "58%"
+		}, 250);
+	$(".robot-des").stop().slideUp();
+	$(".slide-des").stop().slideUp();
+	$(".gyro-des").stop().slideUp();
+	$(".wheel-des").stop().slideUp();
 
-	$(".gyro-des").slideDown();	
+	$(".gyro-des").stop().slideDown();
 });
 
-$("#wheel-btn").click(function() {
-	$(".robot-des").slideUp();
-	$(".slide-des").slideUp();
-	$(".gyro-des").slideUp();
-	$(".wheel-des").slideUp();
 
-	$(".wheel-des").slideDown();	
+$("#wheel-btn").click(
+	function() {
+		$(".feature-nav").stop().animate({
+			top: "83%"
+		}, 250);
+	$(".robot-des").stop().slideUp();
+	$(".slide-des").stop().slideUp();
+	$(".gyro-des").stop().slideUp();
+	$(".wheel-des").stop().slideUp();
+
+	$(".wheel-des").stop().slideDown();
 });

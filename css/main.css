@@ -220,6 +220,24 @@
 	margin: 0 auto;
 	border-radius: 150px;
 	margin-bottom: 20px;
+	background-position: center;
+	background-size: 100%;
+}
+
+#robot-btn {
+	background-image: url("../img/feature-thumbs/robot-thumb.jpg");
+}
+
+.feature-nav {
+	top: 8%;
+	left: 75%;
+	position: absolute;
+	color: #F4CA16;
+	font-size: 40px;
+}
+
+.robot-feature:hover{
+	cursor: pointer;
 }
 
 .slide-des {
@@ -240,10 +258,16 @@
 	background-position: center;
 	border-radius: 4px;
 	margin-bottom: 20px;
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
 .des-img:last-child {
 	margin-bottom: 0px;
+}
+
+.robot-des .des-img:first-child {
+	background-image: url("../img/robot-1.jpg");
 }
 
 .slide-des .des-img:first-child {
