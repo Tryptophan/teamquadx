@@ -228,6 +228,10 @@
 	background-image: url("../img/feature-thumbs/robot-thumb.jpg");
 }
 
+#slide-btn {
+	background-image: url("../img/feature-thumbs/slide-thumb.jpg");
+}
+
 .feature-nav {
 	top: 8%;
 	left: 75%;
@@ -267,7 +271,7 @@
 }
 
 .robot-des .des-img:first-child {
-	background-image: url("../img/robot-1.jpg");
+	background-image: url("../img/robot.jpg");
 }
 
 .slide-des .des-img:first-child {
