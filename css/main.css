@@ -232,6 +232,10 @@
 	background-image: url("../img/feature-thumbs/slide-thumb.jpg");
 }
 
+#gyro-btn {
+	background-image: url("../img/feature-thumbs/gyro-thumb.jpg");
+}
+
 .feature-nav {
 	top: 8%;
 	left: 75%;
@@ -280,6 +284,10 @@
 
 .slide-des .des-img:last-child {
 	background-image: url("../img/8020.jpg");
+}
+
+.wheel-des .des-img:first-child {
+	background-image: url("../img/wheels.jpg");
 }
 
 .timeline-container {
