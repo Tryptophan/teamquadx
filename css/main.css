@@ -225,6 +225,10 @@
 	background-image: url("../img/feature-thumbs/gyro-thumb.jpg");
 }
 
+#wheel-btn {
+	background-image: url("../img/feature-thumbs/wheel-thumb.jpg");
+}
+
 .feature-nav {
 	top: 8%;
 	left: 75%;
