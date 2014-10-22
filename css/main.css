@@ -137,34 +137,23 @@
 	bottom: 0px;
 	padding-left: 10%;
 	padding-right: 10%;
+	padding-top: 35px;
 	background-color: #CC9900;
 	-webkit-box-shadow: inset 0 3px 0 #F4CA16;
 	box-shadow: inset 0 3px 0 #F4CA16;
 	clear: both;
-}
-
-.footer-links-sm-md-lg {
-	width: 257px;
-	margin: 0 auto;
-	padding-top: 35px;
-}
-
-.footer-links-xs {
-	width: 168px;
-	margin: 0 auto;
-	padding-top: 35px;
+	text-align: center;
 }
 
 .footer-links-sm-md-lg a {
 	margin-right: 40px;
+	color: #FFF;
 }
 
 .footer-links-xs a {
+	font-size: 10px;
 	margin-right: 10px;
-}
-
-.footer-links a div {
-	display: inline-block;
+	color: #FFF;
 }
 
 .footer-links :last-child {
