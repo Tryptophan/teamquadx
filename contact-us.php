@@ -69,7 +69,6 @@
 				</div>
 
 				<div class="form-group">
-
 					<div class="col-md-8 col-lg-offset-2">
 						<textarea class="form-control" rows="3" id="textArea"></textarea>
 						<span class="help-block">Leave a message or ask us something!</span>
@@ -81,7 +80,6 @@
 						<button type="submit" class="btn btn-primary">Submit</button>
 					</div>
 				</div>
-
 			</fieldset>
 		</form>
 
@@ -103,13 +101,6 @@
 			<a href="http://teamquadx.org/contact-us.php">Contact Us</a>
 		</div>
 	</div>
-
-	<?php
-		$subject = "Automated email from teamquadx.org, DO NOT REPLY.";
-		$message = "";
-		$email_to = $;
-		$email = email;
-	?>
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
