@@ -58,7 +58,7 @@
 				<div class="form-group">
 					<label for="select" class="col-lg-2 control-label">Selects</label>
 					<div class="col-md-8">
-						<select class="form-control" id="select">
+						<select class="form-control" id="select" name="to">
 							<option>Team Quadx</option>
 							<option>Linnea May</option>
 							<option>Jacob Greenway</option>
@@ -70,7 +70,7 @@
 
 				<div class="form-group">
 					<div class="col-md-8 col-lg-offset-2">
-						<textarea class="form-control" rows="3" id="textArea"></textarea>
+						<textarea class="form-control" rows="3" id="textArea" name="message"></textarea>
 						<span class="help-block">Leave a message or ask us something!</span>
 					</div>
 				</div>
@@ -104,5 +104,6 @@
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<?php include ("php/contact.php"); ?>
 </body>
 </html>
