@@ -541,3 +541,7 @@
 .blog-post-pagination {
 	text-align: center;
 }
+
+.form-alert {
+	display: hidden;
+}

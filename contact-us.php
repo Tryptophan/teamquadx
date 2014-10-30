@@ -1,4 +1,3 @@
-<?php include ("php/contact.php"); ?>
 <!DOCTYPE html>
 <html>
 <head lang="en">
@@ -47,7 +46,7 @@
 
 		<div class="page-header"><h1>Contact Us</h1></div>
 
-		<form class="form-horizontal">
+		<form class="form-horizontal" action="php/contact.php" method="post">
 			<fieldset>
 				<div class="form-group">
 					<label for="inputEmail" class="col-lg-2 control-label">Email</label>
@@ -60,11 +59,11 @@
 					<label for="select" class="col-lg-2 control-label">Selects</label>
 					<div class="col-md-8">
 						<select class="form-control" id="select" name="to">
-							<option>Team Quadx</option>
-							<option>Linnea May</option>
-							<option>Jacob Greenway</option>
-							<option>Eddie Bates</option>
-							<option>Lizzy Patterson</option>
+							<option value="1">Team Quadx</option>
+							<option value="2">Linnea May</option>
+							<option value="3">Jacob Greenway</option>
+							<option value="4">Eddie Bates</option>
+							<option value="5">Lizzy Patterson</option>
 						</select>
 					</div>
 				</div>
@@ -78,7 +77,7 @@
 
 				<div class="form-group">
 					<div class="col-lg-10 col-lg-offset-2">
-						<button type="submit" class="btn btn-primary">Submit</button>
+						<button name="submit" type="submit" class="btn btn-primary">Submit</button>
 					</div>
 				</div>
 			</fieldset>
