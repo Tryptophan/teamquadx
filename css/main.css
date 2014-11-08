@@ -545,3 +545,105 @@
 .form-alert {
 	display: hidden;
 }
+
+#workshop-post-pics {
+	width: 70%;
+	height: 400px;
+	background-image: url("../img/blog/workshop.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:100%;
+	margin:0 auto;
+	border-radius: 4px;
+	border: 1px solid #F4CA16;
+}
+
+.slideshow div{
+	width: 70%;
+	height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:100%;
+	margin:0 auto;
+	border-radius: 4px;
+	border: 1px solid #F4CA16;
+}
+
+/*Pictures for the halloween post*/
+#halloween-slider-0{
+	background-image: url("../img/blog/FallFest1.jpg");
+}
+
+#halloween-slider-1{
+	background-image: url("../img/blog/FallFest2.jpg");
+}
+
+
+/*Pictures for the first build day post*/
+#first-build-slider-0{
+	background-image: url("../img/blog/FirstBuild1.jpg");
+}
+
+#first-build-slider-1{
+	background-image: url("../img/blog/FirstBuild2.jpg");
+}
+
+#first-build-slider-2{
+	background-image: url("../img/blog/FirstBuild4.jpg");
+}
+
+#first-build-slider-3{
+	background-image: url("../img/blog/LinneaSits.jpg");
+}
+
+#first-build-slider-4{
+	background-image: url("../img/blog/1stBuildDay.jpg");
+}
+
+#kickoff-slider-0{
+	background-image: url("../img/blog/kickoff.jpg");
+}
+
+#kickoff-slider-1{
+	background-image: url("../img/blog/balloons.jpg");
+}
+
+#books-outreach-picture{
+	background-image: url("../img/blog/oldPosts/BarnesNoble.jpg");
+}
+
+#outings-p1-slider-0{
+	background-image: url("../img/blog/oldPosts/Gibbens1.jpg");
+}
+
+#outings-p1-slider-1{
+	background-image: url("../img/blog/oldPosts/Gibbens2.jpg");
+}
+
+#outings-p1-slider-2{
+	background-image: url("../img/blog/oldPosts/Gibbens4.jpg");
+}
+
+#outings-p2-slider-0{
+	background-image: url("../img/blog/oldPosts/Fundraising1.jpg");
+}
+
+#outings-p2-slider-1{
+	background-image: url("../img/blog/oldPosts/Fundraising2.jpg");
+}
+
+#outings-p2-slider-2{
+	background-image: url("../img/blog/oldPosts/Fundraising3.jpg");
+}
+
+#outings-p2-slider-3{
+	background-image: url("../img/blog/oldPosts/Fundraising4.jpg");
+}
+
+#outings-p2-slider-4{
+	background-image: url("../img/blog/oldPosts/Fundraising5.jpg");
+}
+
+#outings-p2-slider-5{
+	background-image: url("../img/blog/oldPosts/Fundraising6.jpg");
+}
