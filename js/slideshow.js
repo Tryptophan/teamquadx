@@ -4,6 +4,7 @@ window.onload = function start() {
 	kickoffSlideshow("#kickoff-slider");
 	outings1Slideshow("#outings-p1-slider");
 	outings2Slideshow("#outings-p2-slider");
+	supersSlideshow("#supers-slider");
 }
 
 function halloweendSlideshow(id) {
@@ -90,5 +91,23 @@ function outings2Slideshow(id) {
 		}
 	}, 3000);
 }
+
+function supersSlideshow(id) {
+	var num = 1;
+	$(id + " div").hide();
+	$(id + "-" + 0).show();
+	loop = window.setInterval(function() {
+		$(id + " div").hide().fadeOut();
+		$(id + "-" + num).fadeIn();
+		console.log(num);
+		if (num == 8) {
+			num = 0;
+		}
+		else {
+			num++;
+		}
+	}, 3000);
+}
+
 
 
