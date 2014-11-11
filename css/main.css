@@ -569,6 +569,10 @@
 	border: 1px solid #F4CA16;
 }
 
+.slideshow div:nth-child(n+2) {
+	display: none;
+}
+
 /*Pictures for the halloween post*/
 #halloween-slider-0{
 	background-image: url("../img/blog/FallFest1.jpg");
