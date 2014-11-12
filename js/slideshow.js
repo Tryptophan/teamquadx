@@ -7,6 +7,8 @@ window.onload = function start() {
 	supersSlideshow("#supers-slider");
 	regionalsSlideshow("#regionals-slider");
 	crateSlideshow("#crates-slider");
+	$("#page" + " div").hide();
+	$("#page-1").show();
 }
 
 function halloweendSlideshow(id) {
@@ -128,7 +130,6 @@ function crateSlideshow(id) {
 	loop = window.setInterval(function() {
 		$(id + " div").hide().fadeOut();
 		$(id + "-" + num).fadeIn();
-		console.log(num);
 		if (num == 3) {
 			num = 0;
 		}
@@ -137,5 +138,16 @@ function crateSlideshow(id) {
 		}
 	}, 3000);
 }
+
+$(".pagination li").click(function(){
+	$(".pagination li").removeClass("active");
+	$(this).addClass("active");
+	var pos = this.id;
+	console.log("#page" + "-" + pos);
+	$(".page").hide();
+	$("#page-" + this.id).show();
+	/*$(".page" + " div").hide();*/
+})
+
 
 
