@@ -547,29 +547,21 @@
 }
 
 #workshop-post-pics {
-	width: 70%;
-	height: 400px;
 	background-image: url("../img/blog/workshop.JPG");
+}
+
+.pictures div{
+	width: 50%;
+	height: 300px;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size:100%;
+	background-size:contain;
 	margin:0 auto;
 	border-radius: 4px;
 	border: 1px solid #F4CA16;
 }
 
-.slideshow div{
-	width: 70%;
-	height: 400px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size:100%;
-	margin:0 auto;
-	border-radius: 4px;
-	border: 1px solid #F4CA16;
-}
-
-.slideshow div:nth-child(n+2) {
+.pictures div:nth-child(n+2) {
 	display: none;
 }
 
