@@ -551,11 +551,11 @@
 }
 
 .pictures div{
-	width: 50%;
-	height: 300px;
+	max-width: 75%;
+	height: 420px;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size:contain;
+	background-size:100%;
 	margin:0 auto;
 	border-radius: 4px;
 	border: 1px solid #F4CA16;
@@ -718,4 +718,20 @@
 
 #regionals-slider-7{
 	background-image: url("../img/blog/oldPosts/Regionals8.jpg");
+}
+
+#crates-slider-0{
+	background-image: url("../img/blog/oldPosts/Post1_1.jpg");
+}
+
+#crates-slider-1{
+	background-image: url("../img/blog/oldPosts/Post1_2.jpg");
+}
+
+#crates-slider-2{
+	background-image: url("../img/blog/oldPosts/Post1_3.jpg");
+}
+
+#crates-slider-3{
+	background-image: url("../img/blog/oldPosts/Post1_4.jpg");
 }

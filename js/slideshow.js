@@ -6,6 +6,7 @@ window.onload = function start() {
 	outings2Slideshow("#outings-p2-slider");
 	supersSlideshow("#supers-slider");
 	regionalsSlideshow("#regionals-slider");
+	crateSlideshow("#crates-slider");
 }
 
 function halloweendSlideshow(id) {
@@ -15,7 +16,6 @@ function halloweendSlideshow(id) {
 	loop = window.setInterval(function() {
 		$(id + " div").hide().fadeOut();
 		$(id + "-" + num).fadeIn();
-		console.log(num);
 		if (num <= $(id +"div").size()) {
 			num++;
 		}
@@ -32,7 +32,6 @@ function firstbuildSlideshow(id) {
 	loop = window.setInterval(function() {
 		$(id + " div").hide().fadeOut();
 		$(id + "-" + num).fadeIn();
-		console.log(num);
 		if (num == 4) {
 			num = 0;
 		}
@@ -49,7 +48,6 @@ function kickoffSlideshow(id) {
 	loop = window.setInterval(function() {
 		$(id + " div").hide().fadeOut();
 		$(id + "-" + num).fadeIn();
-		console.log(num);
 		if (num == 1) {
 			num = 0;
 		}
@@ -66,7 +64,6 @@ function outings1Slideshow(id) {
 	loop = window.setInterval(function() {
 		$(id + " div").hide().fadeOut();
 		$(id + "-" + num).fadeIn();
-		console.log(num);
 		if (num == 2) {
 			num = 0;
 		}
@@ -83,7 +80,6 @@ function outings2Slideshow(id) {
 	loop = window.setInterval(function() {
 		$(id + " div").hide().fadeOut();
 		$(id + "-" + num).fadeIn();
-		console.log(num);
 		if (num == 5) {
 			num = 0;
 		}
@@ -100,7 +96,6 @@ function supersSlideshow(id) {
 	loop = window.setInterval(function() {
 		$(id + " div").hide().fadeOut();
 		$(id + "-" + num).fadeIn();
-		console.log(num);
 		if (num == 8) {
 			num = 0;
 		}
@@ -117,8 +112,24 @@ function regionalsSlideshow(id) {
 	loop = window.setInterval(function() {
 		$(id + " div").hide().fadeOut();
 		$(id + "-" + num).fadeIn();
-		console.log(num);
 		if (num == 7) {
+			num = 0;
+		}
+		else {
+			num++;
+		}
+	}, 3000);
+}
+
+function crateSlideshow(id) {
+	var num = 1;
+	$(id + " div").hide();
+	$(id + "-" + 0).show();
+	loop = window.setInterval(function() {
+		$(id + " div").hide().fadeOut();
+		$(id + "-" + num).fadeIn();
+		console.log(num);
+		if (num == 3) {
 			num = 0;
 		}
 		else {
