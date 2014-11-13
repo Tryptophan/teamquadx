@@ -7,10 +7,58 @@ window.onload = function start() {
 	supersSlideshow("#supers-slider");
 	regionalsSlideshow("#regionals-slider");
 	crateSlideshow("#crates-slider");
+	conallySlideshow("#conally-slider");
 	$(".page").hide();
 	$("#page-1").show();
 }
 
+/*Pagination control*/
+$(".pagination li.pg-btn").click(function(){
+	$(".pagination li").removeClass("active");
+	$(this).addClass("active");
+	var pos = this.id;
+	console.log("#page" + "-" + pos);
+	$(".page").hide();
+	$("#page-" + this.id).show();
+});
+ 	
+$("#back-btn").click(function(){
+	var pos = 0;
+	for(var i = 1; i <= 3; i++){
+		if($("#" + i).hasClass("active"))
+		{
+			pos = i - 1;
+			console.log(pos);
+			break;
+		}
+	}
+	if(pos > 0){
+		$(".page").hide();
+		$("#page-" + pos).show();
+		$(".pagination li").removeClass("active");
+		$("#" + pos).addClass("active");	
+	}
+});
+
+$("#forward-btn").click(function(){
+	var pos = 0;
+	for(var i = 1; i <= 3; i++){
+		if($("#" + i).hasClass("active"))
+		{
+			pos = i + 1;
+			console.log(pos);
+			break;
+		}
+	}
+	if(pos < 4){
+		$(".page").hide();
+		$("#page-" + pos).show();
+		$(".pagination li").removeClass("active");
+		$("#" + pos).addClass("active");	
+	}
+});
+
+/*Sliders for each post*/
 function halloweendSlideshow(id) {
 	var num = 1;
 	$(id + " div").hide();
@@ -139,47 +187,18 @@ function crateSlideshow(id) {
 	}, 3000);
 }
 
-$(".pagination li.pg-btn").click(function(){
-	$(".pagination li").removeClass("active");
-	$(this).addClass("active");
-	var pos = this.id;
-	console.log("#page" + "-" + pos);
-	$(".page").hide();
-	$("#page-" + this.id).show();
-});
- 	
-$("#back-btn").click(function(){
-	var pos = 0;
-	for(var i = 1; i <= 3; i++){
-		if($("#" + i).hasClass("active"))
-		{
-			pos = i - 1;
-			console.log(pos);
-			break;
+function conallySlideshow(id) {
+	var num = 1;
+	$(id + " div").hide();
+	$(id + "-" + 0).show();
+	loop = window.setInterval(function() {
+		$(id + " div").hide().fadeOut();
+		$(id + "-" + num).fadeIn();
+		if (num == 4) {
+			num = 0;
 		}
-	}
-	if(pos > 0){
-		$(".page").hide();
-		$("#page-" + pos).show();
-		$(".pagination li").removeClass("active");
-		$("#" + pos).addClass("active");	
-	}
-});
-
-$("#forward-btn").click(function(){
-	var pos = 0;
-	for(var i = 1; i <= 3; i++){
-		if($("#" + i).hasClass("active"))
-		{
-			pos = i + 1;
-			console.log(pos);
-			break;
+		else {
+			num++;
 		}
-	}
-	if(pos < 4){
-		$(".page").hide();
-		$("#page-" + pos).show();
-		$(".pagination li").removeClass("active");
-		$("#" + pos).addClass("active");	
-	}
-});
+	}, 3000);
+}
