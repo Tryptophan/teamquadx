@@ -197,7 +197,6 @@
 
 
 /* our-robot.html styles */
-
 .robot-features {
 	height: 700px;
 }
@@ -537,14 +536,59 @@
 	font-size: 11px;
 }
 
+/*Pictures of resources page */
+#mentoring-slider-0{
+	background-image: url("../img/resources-pics/mentoring1.jpg");
+}
+
+#mentoring-slider-1{
+	background-image: url("../img/resources-pics/mentoring2.jpg");
+}
+
+#mentoring-slider-2{
+	background-image: url("../img/resources-pics/mentoring3.jpg");
+}
+
+#mentoring-slider-3{
+	background-image: url("../img/resources-pics/mentoring4.jpg");
+}
+
+#mentoring-slider-4{
+	background-image: url("../img/resources-pics/mentoring5.jpg");
+}
+
+#mentoring-slider-5{
+	background-image: url("../img/resources-pics/mentoring6.jpg");
+}
+
+#outreach-slider-0{
+	background-image: url("../img/resources-pics/outreach1.jpg");
+}
+
+#outreach-slider-1{
+	background-image: url("../img/resources-pics/outreach2.jpg");
+}
+
+#outreach-slider-2{
+	background-image: url("../img/resources-pics/outreach3.jpg");
+}
+
+#outreach-slider-3{
+	background-image: url("../img/resources-pics/outreach4.jpg");
+}
+
+#outreach-slider-4{
+	background-image: url("../img/resources-pics/outreach5.jpg");
+}
+
+#outreach-slider-5{
+	background-image: url("../img/resources-pics/outreach6.jpg");
+}
+
 /* blog.html styles */
 .blog-post-pagination {
 	text-align: center;
 }
-
-/*.page:nth-child(n+2){
-	display:none;
-}*/
 
 .form-alert {
 	display: hidden;
@@ -554,9 +598,20 @@
 	background-image: url("../img/blog/workshop.JPG");
 }
 
-.pictures div{
+.pictures{
 	max-width: 75%;
 	height: 420px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:100%;
+	margin:0 auto;
+	border-radius: 4px;
+	border: 1px solid #F4CA16;
+}
+
+.portrait-ugh{
+	max-width:40%;
+	height: 500px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size:100%;
@@ -568,6 +623,30 @@
 .pictures div:nth-child(n+2) {
 	display: none;
 }
+/*Scrimmage*/
+#scrimmage-slider-0{
+	background-image: url("../img/blog/scrimmage1.jpg");
+}
+
+#scrimmage-slider-1{
+	background-image: url("../img/blog/scrimmage2.jpg");
+}
+
+#scrimmage-slider-2{
+	background-image: url("../img/blog/scrimmage3.jpg");
+}
+
+#scrimmage-slider-3{
+	background-image: url("../img/blog/scrimmage4.jpg");
+}
+
+#scrimmage-slider-4{
+	background-image: url("../img/blog/scrimmage5.jpg");
+}
+
+#scrimmage-slider-5{
+	background-image: url("../img/blog/scrimmage6.jpg");
+}
 
 /*Pictures for the halloween post*/
 #halloween-slider-0{
@@ -577,7 +656,6 @@
 #halloween-slider-1{
 	background-image: url("../img/blog/FallFest2.jpg");
 }
-
 
 /*Pictures for the first build day post*/
 #first-build-slider-0{
@@ -600,6 +678,7 @@
 	background-image: url("../img/blog/1stBuildDay.jpg");
 }
 
+/* Pictures for the kickoff */
 #kickoff-slider-0{
 	background-image: url("../img/blog/kickoff.jpg");
 }
@@ -608,10 +687,16 @@
 	background-image: url("../img/blog/balloons.jpg");
 }
 
+#kickoff-slider-2{
+	background-image: url("../img/blog/kickoff1.jpg");
+}
+
+/* Barnes and Noble Outreach */
 #books-outreach-picture{
 	background-image: url("../img/blog/oldPosts/BarnesNoble.jpg");
 }
 
+/* Gibbens and River Place */
 #outings-p1-slider-0{
 	background-image: url("../img/blog/oldPosts/Gibbens1.jpg");
 }
@@ -648,6 +733,7 @@
 	background-image: url("../img/blog/oldPosts/Fundraising6.jpg");
 }
 
+/* Super Regionals*/
 #supers-slider-0{
 	background-image: url("../img/blog/oldPosts/Supers1.jpg");
 }
@@ -684,6 +770,7 @@
 	background-image: url("../img/blog/oldPosts/Supers9.jpg");
 }
 
+/* Regionals */
 #regionals-slider-0{
 	background-image: url("../img/blog/oldPosts/Supers9.jpg");
 }
@@ -740,6 +827,7 @@
 	background-image: url("../img/blog/oldPosts/Post1_4.jpg");
 }
 
+/* Conally Qualifier */
 #conally-slider-0{
 	background-image: url("../img/blog/oldPosts/Conally1.jpg");
 }
