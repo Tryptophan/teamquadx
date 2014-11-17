@@ -598,7 +598,18 @@
 	background-image: url("../img/blog/workshop.JPG");
 }
 
-.pictures{
+.pictures div{
+	max-width: 75%;
+	height: 420px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:100%;
+	margin:0 auto;
+	border-radius: 4px;
+	border: 1px solid #F4CA16;
+}
+
+.landscape{
 	max-width: 75%;
 	height: 420px;
 	background-position: center;
