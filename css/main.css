@@ -405,6 +405,7 @@
 	margin: 0 auto;
 }
 
+
 /* Team id's */
 
 #sahil {
@@ -536,6 +537,14 @@
 	font-size: 11px;
 }
 
+.tutorial-image {
+	border-radius:300px;
+	border: 2px #F4CA16 solid;
+	margin-bottom: 20px;
+	margin-right: 10px;
+
+}
+
 /*Pictures of resources page */
 #mentoring-slider-0{
 	background-image: url("../img/resources-pics/mentoring1.jpg");
@@ -583,6 +592,10 @@
 
 #outreach-slider-5{
 	background-image: url("../img/resources-pics/outreach6.jpg");
+}
+
+#pdf-container {
+	
 }
 
 /* blog.html styles */
