@@ -537,13 +537,18 @@
 	font-size: 11px;
 }
 
-.tutorial-image {
+.cheat-image {
 	border-radius:300px;
 	border: 2px #F4CA16 solid;
 	margin-bottom: 20px;
 	margin-right: 10px;
-
 }
+
+.cheat-md-lg > div{
+	width: 500px;
+	margin: 0 auto;
+}
+
 
 /*Pictures of resources page */
 #mentoring-slider-0{
@@ -592,10 +597,6 @@
 
 #outreach-slider-5{
 	background-image: url("../img/resources-pics/outreach6.jpg");
-}
-
-#pdf-container {
-	
 }
 
 /* blog.html styles */
