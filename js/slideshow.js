@@ -10,6 +10,7 @@ window.onload = function start() {
 	conallySlideshow("#conally-slider");
 	mentoringSlideshow("#mentoring-slider");
 	scrimmageSlideshow("#scrimmage-slider");
+	quals1Slideshow("#qualifier1-slider");
 	$(".page").hide();
 	$("#page-1").show();
 }
@@ -229,6 +230,22 @@ function scrimmageSlideshow(id) {
 		$(id + " div").hide().fadeOut();
 		$(id + "-" + num).fadeIn();
 		if (num == 5) {
+			num = 0;
+		}
+		else {
+			num++;
+		}
+	}, 3000);
+}
+
+function quals1Slideshow(id) {
+	var num = 1;
+	$(id + " div").hide();
+	$(id + "-" + 0).show();
+	loop = window.setInterval(function() {
+		$(id + " div").hide().fadeOut();
+		$(id + "-" + num).fadeIn();
+		if (num == 3) {
 			num = 0;
 		}
 		else {

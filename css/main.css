@@ -648,6 +648,23 @@
 .pictures div:nth-child(n+2) {
 	display: none;
 }
+/*First Qualifier Pictures*/
+#qualifier1-slider-0{
+	background-image: url("../img/blog/qualifier0.jpg");
+}
+
+#qualifier1-slider-1{
+	background-image: url("../img/blog/qualifier1.jpg");
+}
+
+#qualifier1-slider-2{
+	background-image: url("../img/blog/qualifier2.jpg");
+}
+
+#qualifier1-slider-3{
+	background-image: url("../img/blog/qualifier3.jpg");
+}
+
 /*Scrimmage*/
 #scrimmage-slider-0{
 	background-image: url("../img/blog/scrimmage1.jpg");
@@ -872,3 +889,4 @@
 #conally-slider-4{
 	background-image: url("../img/blog/oldPosts/Conally5.jpg");
 }
+
