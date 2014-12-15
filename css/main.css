@@ -541,7 +541,7 @@
 	border-radius:300px;
 	border: 2px #F4CA16 solid;
 	margin-bottom: 20px;
-	margin-right: 10px;
+	margin-right: 20px;
 }
 
 .cheat-md-lg > div{
@@ -549,6 +549,10 @@
 	margin: 0 auto;
 }
 
+.cheat-xs-sm{
+	width: 150px;
+	margin: 0 auto;
+}
 
 /*Pictures of resources page */
 #mentoring-slider-0{
@@ -612,9 +616,20 @@
 	background-image: url("../img/blog/workshop.JPG");
 }
 
-.pictures div{
-	max-width: 75%;
-	height: 420px;
+.pictures-md-lg div{
+	max-width: 60%;
+	height: 300px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:100%;
+	margin:0 auto;
+	border-radius: 4px;
+	border: 1px solid #F4CA16;
+}
+
+.pictures-xs-sm div{
+	max-width: 50%;
+	height: 50px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size:100%;
