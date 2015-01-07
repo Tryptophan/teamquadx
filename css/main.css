@@ -290,7 +290,7 @@
 .timeline {
 	width: 10px;
 	position: relative;
-    height: 600px;
+    height: 800px;
     background-color: #CC9900;
     margin: 40px auto 40px auto;
     border-radius: 4px;
@@ -333,6 +333,13 @@
 	top: 500px;
 }
 
+#left-entry-4{
+	top: 575px;
+}
+
+#right-entry-4{
+	top: 675px;
+}
 .entry {
 	position: absolute;
 	left: -10px;
@@ -348,27 +355,35 @@
 }
 
 #entry-1 {
-	top: 15px;
+	top: 30px;
 }
 
 #entry-2 {
-	top: 80px;
+	top: 90px;
 }
 
 #entry-3 {
-	top: 120px;
+	top: 140px;
 }
 
 #entry-4 {
-	top: 300px;
+	top: 325px;
 }
 
 #entry-5 {
-	top: 400px;
+	top: 425px;
 }
 
 #entry-6 {
-	top: 500px;
+	top: 525px;
+}
+
+#entry-7{
+	top: 600px;
+}
+
+#entry-8{
+	top:700px;
 }
 
 #stat-list {
