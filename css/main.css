@@ -642,31 +642,8 @@
 	border: 1px solid #F4CA16;
 }
 
-.pictures-xs-sm div{
-	max-width: 50%;
-	height: 50px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size:100%;
-	margin:0 auto;
-	border-radius: 4px;
-	border: 1px solid #F4CA16;
-}
-
-.landscape{
-	max-width: 75%;
-	height: 420px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size:100%;
-	margin:0 auto;
-	border-radius: 4px;
-	border: 1px solid #F4CA16;
-}
-
 .portrait-ugh{
-	max-width:40%;
-	height: 500px;
+	max-width:25%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size:100%;
