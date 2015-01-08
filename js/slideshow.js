@@ -85,7 +85,7 @@ function firstbuildSlideshow(id) {
 	loop = window.setInterval(function() {
 		$(id + " div").hide().fadeOut();
 		$(id + "-" + num).fadeIn();
-		if (num == 4) {
+		if (num == 3) {
 			num = 0;
 		}
 		else {
@@ -133,7 +133,7 @@ function outings2Slideshow(id) {
 	loop = window.setInterval(function() {
 		$(id + " div").hide().fadeOut();
 		$(id + "-" + num).fadeIn();
-		if (num == 5) {
+		if (num == 3) {
 			num = 0;
 		}
 		else {
