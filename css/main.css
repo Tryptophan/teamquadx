@@ -656,6 +656,22 @@
 	display: none;
 }
 /*First Qualifier Pictures*/
+#harlandale-slider-0{
+	background-image: url("../img/blog/double0.jpg");
+}
+
+#harlandale-slider-1{
+	background-image: url("../img/blog/double1.jpg");
+}
+
+#harlandale-slider-2{
+	background-image: url("../img/blog/double2.jpg");
+}
+
+#harlandale-slider-3{
+	background-image: url("../img/blog/double3.jpg");
+}
+
 #qualifier1-slider-0{
 	background-image: url("../img/blog/qualifier0.JPG");
 }

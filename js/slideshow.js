@@ -11,6 +11,7 @@ window.onload = function start() {
 	mentoringSlideshow("#mentoring-slider");
 	scrimmageSlideshow("#scrimmage-slider");
 	quals1Slideshow("#qualifier1-slider");
+	harldandaleSlideshow("#harlandale-slider");
 	$(".page").hide();
 	$("#page-1").show();
 }
@@ -62,6 +63,22 @@ $("#forward-btn").click(function(){
 });
 
 /*Sliders for each post*/
+function harldandaleSlideshow(id) {
+	var num = 1;
+	$(id + " div").hide();
+	$(id + "-" + 0).show();
+	loop = window.setInterval(function() {
+		$(id + " div").hide().fadeOut();
+		$(id + "-" + num).fadeIn();
+		if (num <= 2) {
+			num++;
+		}
+		else {
+			num = 0;
+		}
+	}, 3000);
+}
+
 function halloweendSlideshow(id) {
 	var num = 1;
 	$(id + " div").hide();
@@ -77,6 +94,7 @@ function halloweendSlideshow(id) {
 		}
 	}, 3000);
 }
+
 
 function firstbuildSlideshow(id) {
 	var num = 1;
@@ -245,7 +263,7 @@ function quals1Slideshow(id) {
 	loop = window.setInterval(function() {
 		$(id + " div").hide().fadeOut();
 		$(id + "-" + num).fadeIn();
-		if (num == 3) {
+		if (num == 4) {
 			num = 0;
 		}
 		else {
