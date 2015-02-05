@@ -391,6 +391,14 @@
 	list-style-type: circle;
 }
 
+#stats-pic{
+	height: 40px;
+	border-radius:300px;
+	border: 2px #F4CA16 solid;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	background-image: url("../img/stats.jpg");
+}
 /* the-team.html styles */
 
 #team-picture {
