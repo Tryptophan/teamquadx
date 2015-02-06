@@ -391,17 +391,18 @@
 	list-style-type: circle;
 }
 
-/*
+
 .stats-pic{
+	margin-top: 10px;
 	margin-left:10px;
+	vertical-align: left;
 	background-image:url("../img/stats.jpg");
 	background-position:center;
-	background-size:auto;
-	position:center;
+	background-repeat: no-repeat;
+	background-size: 100%;
 	border-radius: 4px;
-	display: inline-block;
-	max-width: 75%;
-	height: auto;
+	max-width: 45%;
+	height: 124px;
 }
 /* the-team.html styles */
 
