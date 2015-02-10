@@ -1,5 +1,14 @@
 window.onload = function start() {
+	$(".page").hide();
+	$("#page-1").show();
+
+	sotxSlideshow("#sotx-slider");
+	harldandaleSlideshow("#harlandale-slider");
+	quals1Slideshow("#qualifier1-slider");
+	scrimmageSlideshow("#scrimmage-slider");
+	mentoringSlideshow("#mentoring-slider");
 	halloweendSlideshow("#halloween-slider");
+	/*
 	firstbuildSlideshow("#first-build-slider");
 	kickoffSlideshow("#kickoff-slider");
 	outings1Slideshow("#outings-p1-slider");
@@ -7,13 +16,7 @@ window.onload = function start() {
 	supersSlideshow("#supers-slider");
 	regionalsSlideshow("#regionals-slider");
 	crateSlideshow("#crates-slider");
-	conallySlideshow("#conally-slider");
-	mentoringSlideshow("#mentoring-slider");
-	scrimmageSlideshow("#scrimmage-slider");
-	quals1Slideshow("#qualifier1-slider");
-	harldandaleSlideshow("#harlandale-slider");
-	$(".page").hide();
-	$("#page-1").show();
+	conallySlideshow("#conally-slider");*/
 }
 
 /*Pagination control*/
@@ -33,6 +36,25 @@ $("#back-btn").click(function(){
 		{
 			pos = i - 1;
 			console.log(pos);
+			switch(case pos)
+				case 0:
+					$("#page" + pos).onload = function start(){
+						sotxSlideshow("#sotx-slider");
+						harldandaleSlideshow("#harlandale-slider");
+						quals1Slideshow("#qualifier1-slider");
+						scrimmageSlideshow("#scrimmage-slider");
+						mentoringSlideshow("#mentoring-slider");
+						halloweendSlideshow("#halloween-slider");
+					}
+				case 1:
+					$("#page" + pos).onload = function start(){
+						firstbuildSlideshow("#first-build-slider");
+						kickoffSlideshow("#kickoff-slider");
+						outings1Slideshow("#outings-p1-slider");
+						outings2Slideshow("#outings-p2-slider");
+						supersSlideshow("#supers-slider");
+					}
+				case 
 			break;
 		}
 	}
@@ -63,6 +85,23 @@ $("#forward-btn").click(function(){
 });
 
 /*Sliders for each post*/
+
+function sotxSlideshow(id) {
+	var num = 1;
+	$(id + " div").hide();
+	$(id + "-" + 0).show();
+	loop = window.setInterval(function() {
+		$(id + " div").hide().fadeOut();
+		$(id + "-" + num).fadeIn();
+		if (num <= 3) {
+			num++;
+		}
+		else {
+			num = 0;
+		}
+	}, 3000);
+}
+
 function harldandaleSlideshow(id) {
 	var num = 1;
 	$(id + " div").hide();

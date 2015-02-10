@@ -669,6 +669,29 @@
 	display: none;
 }
 /*First Qualifier Pictures*/
+
+#sotx-slider-0{
+	background-image: url("../img/blog/sotx0.jpg");
+}
+
+#sotx-slider-1{
+	background-image: url("../img/blog/sotx1.jpg");
+}
+
+#sotx-slider-2{
+	background-image: url("../img/blog/sotx2.jpg");
+}
+
+#sotx-slider-3{
+	background-image: url("../img/blog/sotx3.jpg");
+}
+
+#sotx-slider-4{
+	background-image: url("../img/blog/sotx4.jpg");
+}
+
+
+
 #harlandale-slider-0{
 	background-image: url("../img/blog/double0.jpg");
 }
