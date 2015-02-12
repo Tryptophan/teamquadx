@@ -36,26 +36,20 @@ $("#back-btn").click(function(){
 		{
 			pos = i - 1;
 			console.log(pos);
-			switch(case pos)
-				case 0:
-					$("#page" + pos).onload = function start(){
-						sotxSlideshow("#sotx-slider");
-						harldandaleSlideshow("#harlandale-slider");
-						quals1Slideshow("#qualifier1-slider");
-						scrimmageSlideshow("#scrimmage-slider");
-						mentoringSlideshow("#mentoring-slider");
-						halloweendSlideshow("#halloween-slider");
-					}
-				case 1:
-					$("#page" + pos).onload = function start(){
-						firstbuildSlideshow("#first-build-slider");
-						kickoffSlideshow("#kickoff-slider");
-						outings1Slideshow("#outings-p1-slider");
-						outings2Slideshow("#outings-p2-slider");
-						supersSlideshow("#supers-slider");
-					}
-				case 
 			break;
+			if($(this.id) == 3){
+				window.onload = function()
+				{
+					firstbuildSlideshow("#first-build-slider");
+					kickoffSlideshow("#kickoff-slider");
+					outings1Slideshow("#outings-p1-slider");
+					outings2Slideshow("#outings-p2-slider");
+					supersSlideshow("#supers-slider");
+				}
+			}
+					
+	}
+			}
 		}
 	}
 	if(pos > 0){
