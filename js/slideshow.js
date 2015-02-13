@@ -1,14 +1,10 @@
 window.onload = function start() {
-	$(".page").hide();
-	$("#page-1").show();
-
 	sotxSlideshow("#sotx-slider");
 	harldandaleSlideshow("#harlandale-slider");
 	quals1Slideshow("#qualifier1-slider");
 	scrimmageSlideshow("#scrimmage-slider");
 	mentoringSlideshow("#mentoring-slider");
 	halloweendSlideshow("#halloween-slider");
-	/*
 	firstbuildSlideshow("#first-build-slider");
 	kickoffSlideshow("#kickoff-slider");
 	outings1Slideshow("#outings-p1-slider");
@@ -16,7 +12,11 @@ window.onload = function start() {
 	supersSlideshow("#supers-slider");
 	regionalsSlideshow("#regionals-slider");
 	crateSlideshow("#crates-slider");
-	conallySlideshow("#conally-slider");*/
+	conallySlideshow("#conally-slider");
+
+	$(".page").hide();
+	$("#page-1").show();
+
 }
 
 /*Pagination control*/
@@ -36,8 +36,8 @@ $("#back-btn").click(function(){
 		{
 			pos = i - 1;
 			console.log(pos);
-			break;
-			if($(this.id) == 3){
+			//break;
+			/*if($(this.id) == 3){
 				window.onload = function()
 				{
 					firstbuildSlideshow("#first-build-slider");
@@ -46,12 +46,11 @@ $("#back-btn").click(function(){
 					outings2Slideshow("#outings-p2-slider");
 					supersSlideshow("#supers-slider");
 				}
-			}
+			}*/
 					
-	}
-			}
 		}
 	}
+	
 	if(pos > 0){
 		$(".page").hide();
 		$("#page-" + pos).show();
