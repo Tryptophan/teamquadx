@@ -668,7 +668,32 @@
 .pictures div:nth-child(n+2) {
 	display: none;
 }
-/*First Qualifier Pictures*/
+/*Pictures*/
+#regionals2015-slider-0{
+	background-image: url("../img/blog/regionals2015-0.jpg");
+}
+
+#regionals2015-slider-1{
+	background-image: url("../img/blog/regionals2015-1.jpg");
+}
+
+#regionals2015-slider-2{
+	background-image: url("../img/blog/regionals2015-2.jpg");
+}
+
+#regionals2015-slider-3{
+	background-image: url("../img/blog/regionals2015-3.jpg");
+}
+
+#regionals2015-slider-4{
+	background-image: url("../img/blog/regionals2015-4.jpg");
+}
+
+#regionals2015-slider-5{
+	background-image: url("../img/blog/regionals2015-5.jpg");
+}
+
+
 
 #sotx-slider-0{
 	background-image: url("../img/blog/sotx0.jpg");

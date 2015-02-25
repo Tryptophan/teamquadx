@@ -1,4 +1,5 @@
 window.onload = function start() {
+	regionals2015_Slideshow("#regionals2015-slider");
 	sotxSlideshow("#sotx-slider");
 	harldandaleSlideshow("#harlandale-slider");
 	quals1Slideshow("#qualifier1-slider");
@@ -78,6 +79,22 @@ $("#forward-btn").click(function(){
 });
 
 /*Sliders for each post*/
+
+function regionals2015_Slideshow(id) {
+	var num = 1;
+	$(id + " div").hide();
+	$(id + "-" + 0).show();
+	loop = window.setInterval(function() {
+		$(id + " div").hide().fadeOut();
+		$(id + "-" + num).fadeIn();
+		if (num <= 4) {
+			num++;
+		}
+		else {
+			num = 0;
+		}
+	}, 3000);
+}
 
 function sotxSlideshow(id) {
 	var num = 1;
