@@ -669,6 +669,26 @@
 	display: none;
 }
 /*Pictures*/
+#supers15-slider-0{
+	background-image: url("../img/blog/supers0.jpg");
+}
+
+#supers15-slider-1{
+	background-image: url("../img/blog/supers1.jpg");
+}
+
+#supers15-slider-2{
+	background-image: url("../img/blog/supers2.jpg");
+}
+
+#supers15-slider-3{
+	background-image: url("../img/blog/supers3.jpg");
+}
+
+#supers15-slider-4{
+	background-image: url("../img/blog/supers4.jpg");
+}
+
 #regionals2015-slider-0{
 	background-image: url("../img/blog/regionals2015-0.jpg");
 }
