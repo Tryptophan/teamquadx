@@ -81,14 +81,14 @@ $("#forward-btn").click(function(){
 
 /*Sliders for each post*/
 
-function supers15_SlideShow(id) {
+function supers15_Slideshow(id) {
 	var num = 1;
 	$(id + " div").hide();
 	$(id + "-" + 0).show();
 	loop = window.setInterval(function() {
 		$(id + " div").hide().fadeOut();
 		$(id + "-" + num).fadeIn();
-		if (num <= 4) {
+		if (num <= 3) {
 			num++;
 		}
 		else {
